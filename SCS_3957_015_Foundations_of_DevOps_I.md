@@ -26,7 +26,7 @@ Introduction to DevOps: Core Values and Principles
   - Select an organization and describe whether CALMS core values and the Three Ways principles are present.
   - List and provide examples to support your assessment.
   - Explain the current ways the organization is doing software delivery.
-  - No more than 3 pages (maximum 1,500 words single-spaced, in 12pt font)
+  - No more than 3 pages (maximum 1,500 words single-spaced, in 12pt font).
 - Recommended Readings list available in your Module Overview section.
 
 Notes:
@@ -58,7 +58,10 @@ The Building Blocks of DevOps
   - [ITIL v4: a portrait of the fourth edition of the IT service framework](https://www.ionos.ca/digitalguide/online-marketing/online-sales/what-is-itil-v4/)
 
 - Weekly Assignment 2
-- Recommended Readings list available in your Module Overview section.
+  - Assess organization M (from Module 1) and list the various agile frameworks and practices.
+  - How are these frameworks and practices working? Any changes you recommend and why?
+  - You could create a table to provide your findings.
+  - No more than 3 pages (maximum 1,500 words single-spaced, in 12pt font).
 
 Note:
 - Agile Frameworks: Scrum, Kanban, Lean, Kaizen, ITSM (ITILv4).
