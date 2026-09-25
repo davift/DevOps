@@ -28,13 +28,13 @@ After Team A's Scrum Master left the organization, its earlier success did not c
 
 ### What changes would you recommend, and why?
 
-I recommend M invest in growing a new Scrum Master from within the original Team A. It has to be a person who understand the values (commitment, focus, and openness) because they don't sustain themselves automatically, they need someone actively leading the process. This person could eventually train other Scrum Master on the other teams.
+I recommend that M invest in growing a new Scrum Master from within the original Team A. This person needs to understand the underlying values, commitment, focus, and openness, because these do not sustain themselves automatically, they need someone actively leading the process. Over time, this person could also train Scrum Masters for the other teams.
 
-Because Team A clearly drifted into working into silos, which directly contradicts the Agile principle of favoring face-to-face collaboration over documentation and handoffs. It was later proven with its drop in efficiency and quality.
+Team A clearly drifted into working in silos, which directly contradicts the Agile principle of favoring face-to-face collaboration over documentation and handoffs. This was later confirmed by the drop in efficiency and quality.
 
-Teams B and C appear to work on the same framework for upper management and stakeholders because they make themselves visible during Demos but they do not do Agile, they just resemble with same fixed cadence on ceremonies. Executives or clients often do not know any better, and since those events exist superficially, small issues turn into bigger ones and nobody know why.
+Teams B and C appear, from the perspective of upper management and stakeholders, to be working under the same framework, since they make themselves visible during Demos. In reality, though, they are not practicing Agile so much as mimicking its surface-level cadence of ceremonies. Executives and clients often can't tell the difference, and because those events are being run superficially, small issues go unresolved and eventually snowball, without anyone quite understanding why.
 
-Out of them all, Team D was the most stable one since it was formed from a diverse skill-set members, making it naturally cross-functional, in the sense of prespectives. Most of the best practices of the original teams were blended together in a way that makes sense and work.
+Of all the teams, Team D was the most stable, largely because it was formed from members with diverse skill sets, making it naturally cross-functional in terms of perspective. Many of the best practices from the original teams were blended together there in a way that actually makes sense and works.
 
-Finally, the goal is not to force every team into the same framework, it is to regularly reflect on what is actually working and adjust, which is itself one of the core Agile principles.
+Ultimately, the goal is not to force every team into the same framework, it is to regularly reflect on what's actually working and adjust accordingly, which is itself one of the core Agile principles.
 
