@@ -28,9 +28,13 @@ After Team A's Scrum Master left the organization, its earlier success did not c
 
 ### What changes would you recommend, and why?
 
+I recommend M invest in growing a new Scrum Master from within the original Team A. It has to be a person who understand the values (commitment, focus, and openness) because they don't sustain themselves automatically, they need someone actively leading the process. This person could eventually train other Scrum Master on the other teams.
 
+Because Team A clearly drifted into working into silos, which directly contradicts the Agile principle of favoring face-to-face collaboration over documentation and handoffs. It was later proven with its drop in efficiency and quality.
 
+Teams B and C appear to work on the same framework for upper management and stakeholders because they make themselves visible during Demos but they do not do Agile, they just resemble with same fixed cadence on ceremonies. Executives or clients often do not know any better, and since those events exist superficially, small issues turn into bigger ones and nobody know why.
 
+Out of them all, Team D was the most stable one since it was formed from a diverse skill-set members, making it naturally cross-functional, in the sense of prespectives. Most of the best practices of the original teams were blended together in a way that makes sense and work.
 
-
+Finally, the goal is not to force every team into the same framework, it is to regularly reflect on what is actually working and adjust, which is itself one of the core Agile principles.
 
