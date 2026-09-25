@@ -32,7 +32,7 @@ Introduction to DevOps: Core Values and Principles
 Notes:
 - I have introduced myself in the Watercooler discussion section, since I registered late.
 - DevOps Benefits: Achieving Agility, Removing Silos, Efficient and Faster Deployment, Savings (from repetitive tasks), Continuous Delivery, and Reduced Defects.
-- DevOps Core Values (CALM): Culture, Automation, Lean, Measurement, and Sharing.
+- DevOps Core Values (CALMS): Culture, Automation, Lean, Measurement, and Sharing.
   - Culture: Collaborative and customer-centric.
   - Automation: Code builds, testing, deployments, IaC.
   - Lean: Remove anything that does not add value.
