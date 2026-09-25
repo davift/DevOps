@@ -43,4 +43,82 @@ Notes:
 
 ---
 
+## Week 2
+
+The Building Blocks of DevOps
+- Agile Versus Waterfall Approach
+- Agile Manifesto and Principles
+- Agile Frameworks and Practices - Scrum, Kanban, Lean, Kaizen, ITSM (ITLv4)
+
+- Required Reading:
+  - [Agile Alliance: Agile Essentials](https://www.agilealliance.org/agile-essentials/)
+  - [Manifesto for Agile Software Development](https://agilemanifesto.org/)
+  - [What is Scrum](https://www.scrum.org/resources/what-is-scrum)
+  - [Kanban University: Resources](https://kanban.university/)
+  - [ITIL v4: a portrait of the fourth edition of the IT service framework](https://www.ionos.ca/digitalguide/online-marketing/online-sales/what-is-itil-v4/)
+
+- Weekly Assignment 2
+- Recommended Readings list available in your Module Overview section.
+
+Note:
+- Agile Frameworks: Scrum, Kanban, Lean, Kaizen, ITSM (ITILv4).
+- Agile is an iterative and incremental approach to software delivery.
+- Sprint: industry-wide adopted 2 weeks by default.
+- MVP: minimum viable product.
+- Waterfall is sequential (Predictive): Initiate Project > Requirements > Design > Develop/Plan > Implement
+  - Variable Schedule and Cost, but Fixed Scope.
+- Agile is a loop (Adaptive): Plan > Do Work > Check > Act > Start Over
+  - Fixed Schedule and Cost, but Variable Scope.
+- Agile Manifesto (DevOps is an option of Agile):
+  - 4 core values:
+    - Individuals and Interactions over Processes and Tools.
+    - Comprehensive documentation.
+    - Collaboration over contract negotiation (product owner).
+    - Responding to change over following a plan.
+  - 12 principles:
+    - Early via continuous delivery.
+    - Welcomes changes in requirements.
+    - Deliver frequently.
+    - Daily collaboration between Developers and Product Owners.
+    - Motivated individuals and trust.
+    - Face-to-face conversation (no silos).
+    - Working software is the primary measure of success (the opposite of "move fast and break things").
+    - Sustainable development.
+    - Attention to technical excellence and good design.
+    - Simplicity (the art of minimizing the amount of work).
+    - Self-organized teams.
+    - Regularly reflect on how to become more effective.
+- Scrum:
+  - Lightweight.
+  - Transformational for organizations.
+  - Simple to understand.
+  - Difficult to master (scrum-master).
+- Scrum Values:
+  - People personally commit to the team's goal.
+  - The team dares to do the right thing.
+  - Team focused on Sprint work.
+  - Stakeholders (all) agree to be open about challenges.
+  - Respect each other to be capable and independent.
+- Scrum Team:
+  - Cross-functional team members with all competencies to accomplish the work.
+  - Maximize the opportunity for feedback.
+- Scrum Ceremonies (Events):
+  - Daily stand-up (yesterday, today, blockers).
+  - Planning for future sprints.
+  - Review/Demo of the past sprint to the product owner (customer).
+  - Retrospective (lessons learned).
+- Events At A Glance: Backlog > Sprint Planning > Sprint Backlog > Sprint > Incremented Product > Sprint Review > Sprint Retrospective > Backlog again.
+- Kanban: Just-in-time delivery.
+  - A pull system based on customer demand.
+  - Board buckets: Backlog, In Progress, Peer Review, In Test, Done, Blocked.
+- Lean: Value-added work only.
+  - Eliminating waste, amplifying learning, deciding as late as possible, delivering as fast as possible, empowering the team, building integrity in, seeing the whole.
+- Kaizen: "good change".
+  - Eliminate waste and overly hard work, meaning work smarter.
+- ITSM (ITILv4): for IT services.
+- SAFe: Scaled Agile Framework.
+  - Large Scrum for large projects.
+
+---
+
 (to be continued)
