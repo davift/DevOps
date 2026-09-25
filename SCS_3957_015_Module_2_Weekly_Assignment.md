@@ -10,23 +10,23 @@ Student: Davi Torres
 
 ## Paper
 
-The organization M introduced in assignment one is essentially a software company that delivers its services with the usage of a series of software designed entirely in-house.
+Organization M, introduced in Assignment 1, is a software company that delivers its services through a suite of software built entirely in-house.
 
-A bit of context before starting that will explain why there is diversity in adopted methodologies. In the last few years, M acquired 4 other software organizations that had that common business (not competitors but partners), making it own the whole supply self-sufficient and owning the whole supply chain.
+Some context helps explain the diversity in methodologies used. Over the past few years, M acquired four other software organizations. These were not competitors but partners in the same business, allowing M to become self-sufficient by owning the entire supply chain.
 
-### What Agile frameworks and practices are used by M?
+### What Agile frameworks and practices does M use?
 
-At M, Team A followed Scrum by the book, with all ceremonies and a great Scrum-master leading all phases.
+At M, Team A follows Scrum by the book, running all ceremonies under a strong Scrum Master.
 
-Teams B and C work in a Kanban fashion, but with a few Scrum ceremonies that are common with Team A. They mostly piggyback on the Demo because that has most of the stakeholders present.
+Teams B and C work in a Kanban style, but share a few ceremonies with Team A. They mostly join the Demo, since that's where most stakeholders are present.
 
-Then, Team D (DevOps) was formed with people from all teams. This team followed Kanban and served Teams A, B, and C (aka. clients). The difference is that each of the clients has different needs and means of operating.
+Team D (DevOps) was formed with members from all three teams. It follows Kanban and supports Teams A, B, and C (its "clients"), each of which has different needs and ways of working.
 
-### How are these frameworks and practices working for M?
+### How well are these frameworks and practices working for M?
 
-Once the Scrum master of Team A left the organization, the success did not continue with the whole Scrum, as it was deemed costly. Instead, people started working a bit more siloed, and even with a bigger team, it was clear that its capacity had been reduced (quality of the delivered code also suffered).
+After Team A's Scrum Master left the organization, its earlier success did not continue under full Scrum, which was seen as too costly to sustain. The team began working in a more siloed way, and despite growing in size, its capacity clearly declined (the quality of delivered code suffered as well).
 
-### Any changes you recommend, and why?
+### What changes would you recommend, and why?
 
 
 
