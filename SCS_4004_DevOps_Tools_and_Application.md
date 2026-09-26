@@ -24,5 +24,15 @@ syed.zaidz@utoronto.ca
 
 Notes:
 
-
+- DevOps is complementary to Agile methodology (from which several aspects come).
+- It reduces interpersonal friction, eliminates bottlenecks, improves collaboration, increases satisfaction, and productivity.
+- Phases vs Tools for Labs
+  - Plan: Trello
+  - Code: IDE, OS, Git
+  - Build: NPM (JavaScript)
+  - Test: Mocha for Node.js (Unit/BDD/TDD)
+  - Release: Jenkins, IMO, GitHub Actions (CI/CD)
+  - Deploy: Docker, K8s, Terraform (IaC)
+  - Operate: Ansible
+  - Monitor: Podman, Nagios, New Relic
 
