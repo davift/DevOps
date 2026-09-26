@@ -35,6 +35,11 @@ Notes:
   - Deploy: Docker, K8s, Terraform (IaC)
   - Operate: Ansible
   - Monitor: Podman, Nagios, New Relic
+- CMMI 4 Step Maturity Model
+  - 1 Initial - Knows that it is, but hasn't done any.
+  - 2 Managed - There is a level of Project Management achieved.
+  - 3 Defined - More proactive than reactive.
+  - 4 Optimizing - Stable and flexible, allowing agility and innovation.
 
 ---
 
