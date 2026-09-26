@@ -36,3 +36,8 @@ Notes:
   - Operate: Ansible
   - Monitor: Podman, Nagios, New Relic
 
+---
+
+## Week 2
+
+(to be continued)
