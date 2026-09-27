@@ -1,8 +1,267 @@
-<html>
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Profile System — Preview</title>
+<style>
+  :root{
+    --bg:#f7f8fa;--panel:#ffffff;--text:#1c2530;--muted:#5b6572;--accent:#2563eb;--accent-soft:#eff6ff;
+    --border:#e2e5ea;--danger:#dc2626;--danger-soft:#fef2f2;
+    --grade-a:#16a34a;--grade-a-bg:#f0fdf4;--grade-b:#2563eb;--grade-b-bg:#eff6ff;--grade-c:#d97706;--grade-c-bg:#fffbeb;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;padding:24px 16px 64px;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.55;}
+  .wrap{max-width:960px;margin:0 auto;}
+
+  .banner{background:var(--accent-soft);border:1px solid #bfdbfe;border-radius:10px;padding:16px 20px;margin-bottom:28px;font-size:0.95rem;}
+  .banner strong{color:var(--accent);}
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){--bg:#0b0f14;--panel:#131922;--text:#e6e9ee;--muted:#93a0b0;--border:#232c38;--accent-soft:#0e1826;--danger-soft:#2a1414;--grade-a-bg:#0e1f14;--grade-b-bg:#0e1826;--grade-c-bg:#241b0d;}
+    .banner{border-color:#1e3a5f;}
+  }
+
+  header{margin-bottom:28px;}
+  h1{font-size:1.9rem;margin:0 0 6px;}
+  .subtitle{color:var(--muted);font-size:1rem;margin:0;}
+
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-bottom:28px;}
+  .stat-card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:18px;text-align:center;}
+  .stat-value{font-size:1.8rem;font-weight:700;color:var(--accent);}
+  .stat-label{color:var(--muted);font-size:0.85rem;margin-top:4px;}
+
+  .panel-box{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:28px;}
+  .panel-box h2{margin:0 0 14px;font-size:1.1rem;}
+  .form-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;align-items:end;}
+  .field label{display:block;font-size:0.8rem;color:var(--muted);margin-bottom:4px;}
+  .field input, .field select{width:100%;padding:9px 10px;border:1px solid var(--border);border-radius:7px;background:var(--bg);color:var(--text);font-size:0.92rem;}
+  .field input:focus, .field select:focus{outline:2px solid var(--accent);outline-offset:1px;}
+
+  .btn{cursor:pointer;border:none;border-radius:7px;padding:9px 16px;font-size:0.88rem;font-weight:600;}
+  .btn-primary{background:var(--accent);color:#fff;}
+  .btn-primary:hover{opacity:0.9;}
+  .btn-secondary{background:transparent;color:var(--muted);border:1px solid var(--border);}
+  .btn-secondary:hover{background:var(--bg);}
+  .btn-danger{background:var(--danger-soft);color:var(--danger);border:1px solid var(--danger);}
+  .btn-danger:hover{background:var(--danger);color:#fff;}
+  .btn-row{display:flex;gap:8px;margin-top:2px;}
+  .error-msg{color:var(--danger);font-size:0.82rem;margin-top:10px;min-height:1.2em;}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;}
+  .student-card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:18px;transition:transform .15s ease, box-shadow .15s ease;}
+  .student-card:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,0.06);}
+  .card-top{display:flex;align-items:center;gap:12px;margin-bottom:12px;}
+  .avatar{width:44px;height:44px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:1rem;flex-shrink:0;}
+  .student-name{font-weight:600;font-size:1.02rem;}
+  .student-email{color:var(--muted);font-size:0.82rem;word-break:break-all;}
+  .card-details{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 14px;}
+  .pill{font-size:0.78rem;padding:3px 10px;border-radius:999px;border:1px solid var(--border);color:var(--muted);}
+  .grade-pill{font-weight:600;}
+  .grade-A{color:var(--grade-a);background:var(--grade-a-bg);border-color:var(--grade-a);}
+  .grade-B{color:var(--grade-b);background:var(--grade-b-bg);border-color:var(--grade-b);}
+  .grade-C{color:var(--grade-c);background:var(--grade-c-bg);border-color:var(--grade-c);}
+  .card-actions{display:flex;gap:8px;}
+  .card-actions .btn{padding:6px 12px;font-size:0.8rem;flex:1;}
+
+  .empty-state{text-align:center;color:var(--muted);padding:40px 20px;border:1px dashed var(--border);border-radius:12px;}
+
+  footer{margin-top:3em;padding-top:1em;border-top:1px solid var(--border);color:var(--muted);font-size:0.8rem;}
+  code{font-family:"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;background:var(--accent-soft);padding:1px 5px;border-radius:4px;}
+</style>
 </head>
 <body>
-<h1>Hello World<h1>
-<h2>by: Syed Wahid <h2>
+<div class="wrap">
+
+<div class="banner">
+  <strong>What we're building this course.</strong> This is the finished-looking front end for the app we'll use in every module —
+  right now it's a static HTML file with full Create/Read/Update/Delete, but the data lives only in this page's JavaScript memory
+  (refresh the page and it resets to the original four students — nothing is saved to disk or a database yet). Over the next several
+  modules we'll give it a real test suite, a container, a real PostgreSQL database so changes actually persist, a Kubernetes
+  deployment, and CI/CD automation — but this CRUD behavior is exactly what you'll be reproducing against a real database in Module 6.
+</div>
+
+<header>
+  <h1>Student Profile System</h1>
+  <p class="subtitle">A small student roster app — the running example for SCS 4004</p>
+</header>
+
+<div class="stats">
+  <div class="stat-card"><div class="stat-value" id="stat-total">–</div><div class="stat-label">Total Students</div></div>
+  <div class="stat-card"><div class="stat-value" id="stat-avg-age">–</div><div class="stat-label">Average Age</div></div>
+  <div class="stat-card"><div class="stat-value" id="stat-grade-a">–</div><div class="stat-label">Grade A Students</div></div>
+</div>
+
+<div class="panel-box">
+  <h2 id="form-title">Add a Student</h2>
+  <div class="form-grid">
+    <div class="field">
+      <label for="f-name">Name</label>
+      <input type="text" id="f-name" placeholder="e.g. Alex Chen">
+    </div>
+    <div class="field">
+      <label for="f-age">Age</label>
+      <input type="number" id="f-age" min="1" max="120" placeholder="e.g. 21">
+    </div>
+    <div class="field">
+      <label for="f-grade">Grade</label>
+      <select id="f-grade">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="f-email">Email</label>
+      <input type="text" id="f-email" placeholder="e.g. alex@school.com">
+    </div>
+    <div class="field btn-row">
+      <button class="btn btn-primary" id="save-btn" onclick="saveStudent()">Add Student</button>
+      <button class="btn btn-secondary" id="cancel-btn" onclick="cancelEdit()" style="display:none;">Cancel</button>
+    </div>
+  </div>
+  <div class="error-msg" id="form-error"></div>
+</div>
+
+<div class="grid" id="student-grid"></div>
+
+<footer>SCS 4004 — DevOps Tools and Applications · 2026 Refresh · Static Preview (pre-Module 4) — in-memory CRUD, resets on refresh</footer>
+</div>
+
+<script>
+  // The same four students used throughout the course (Module 4 onward), kept in a
+  // plain JS array. Create/Update/Delete below only mutate this array — there is no
+  // server, no fetch, no localStorage. Refreshing the page throws everything away
+  // and starts over from this seed list, which is the point: this is what CRUD looks
+  // like with no persistence layer yet.
+  let students = [
+    { id: 1, name: 'John Doe', age: 20, grade: 'A', email: 'john@school.com' },
+    { id: 2, name: 'Jane Smith', age: 21, grade: 'B', email: 'jane@school.com' },
+    { id: 3, name: 'Mike Johnson', age: 19, grade: 'A', email: 'mike@school.com' },
+    { id: 4, name: 'Sarah Wilson', age: 22, grade: 'C', email: 'sarah@school.com' }
+  ];
+  let nextId = 5;
+  let editingId = null; // null = "Add" mode, otherwise the id being edited
+
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  function initials(name) {
+    return name.split(' ').filter(Boolean).map(p => p[0]).join('').toUpperCase();
+  }
+
+  function showError(msg) {
+    document.getElementById('form-error').textContent = msg;
+  }
+
+  function readForm() {
+    return {
+      name: document.getElementById('f-name').value.trim(),
+      age: parseInt(document.getElementById('f-age').value, 10),
+      grade: document.getElementById('f-grade').value,
+      email: document.getElementById('f-email').value.trim()
+    };
+  }
+
+  function validate({ name, age, email }) {
+    if (!name) return 'Name is required.';
+    if (!age || age < 1 || age > 120) return 'Enter a valid age.';
+    if (!emailRegex.test(email)) return 'Enter a valid email address.';
+    return null;
+  }
+
+  // CREATE / UPDATE — same form and button handle both, based on editingId
+  function saveStudent() {
+    const data = readForm();
+    const error = validate(data);
+    if (error) { showError(error); return; }
+    showError('');
+
+    if (editingId === null) {
+      students.push({ id: nextId++, ...data });
+    } else {
+      const student = students.find(s => s.id === editingId);
+      Object.assign(student, data);
+    }
+    resetForm();
+    render();
+  }
+
+  // READ (of one record) — populate the form for editing
+  function editStudent(id) {
+    const student = students.find(s => s.id === id);
+    if (!student) return;
+    editingId = id;
+    document.getElementById('f-name').value = student.name;
+    document.getElementById('f-age').value = student.age;
+    document.getElementById('f-grade').value = student.grade;
+    document.getElementById('f-email').value = student.email;
+    document.getElementById('form-title').textContent = `Editing ${student.name}`;
+    document.getElementById('save-btn').textContent = 'Update Student';
+    document.getElementById('cancel-btn').style.display = 'inline-block';
+    showError('');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // DELETE
+  function deleteStudent(id) {
+    const student = students.find(s => s.id === id);
+    if (!student) return;
+    if (!confirm(`Remove ${student.name} from the roster?`)) return;
+    students = students.filter(s => s.id !== id);
+    if (editingId === id) resetForm();
+    render();
+  }
+
+  function cancelEdit() {
+    resetForm();
+  }
+
+  function resetForm() {
+    editingId = null;
+    document.getElementById('f-name').value = '';
+    document.getElementById('f-age').value = '';
+    document.getElementById('f-grade').value = 'A';
+    document.getElementById('f-email').value = '';
+    document.getElementById('form-title').textContent = 'Add a Student';
+    document.getElementById('save-btn').textContent = 'Add Student';
+    document.getElementById('cancel-btn').style.display = 'none';
+    showError('');
+  }
+
+  // READ (of the whole list) — re-render everything from the current array
+  function render() {
+    const grid = document.getElementById('student-grid');
+
+    if (students.length === 0) {
+      grid.innerHTML = '<div class="empty-state">No students yet — add one above.</div>';
+    } else {
+      grid.innerHTML = students.map(s => `
+        <div class="student-card">
+          <div class="card-top">
+            <div class="avatar">${initials(s.name)}</div>
+            <div>
+              <div class="student-name">${s.name}</div>
+              <div class="student-email">${s.email}</div>
+            </div>
+          </div>
+          <div class="card-details">
+            <span class="pill">Age ${s.age}</span>
+            <span class="pill grade-pill grade-${s.grade}">Grade ${s.grade}</span>
+          </div>
+          <div class="card-actions">
+            <button class="btn btn-secondary" onclick="editStudent(${s.id})">Edit</button>
+            <button class="btn btn-danger" onclick="deleteStudent(${s.id})">Delete</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    document.getElementById('stat-total').textContent = students.length;
+    const avgAge = students.length ? (students.reduce((sum, s) => sum + s.age, 0) / students.length).toFixed(1) : '0';
+    document.getElementById('stat-avg-age').textContent = avgAge;
+    document.getElementById('stat-grade-a').textContent = students.filter(s => s.grade === 'A').length;
+  }
+
+  render();
+</script>
 </body>
 </html>
