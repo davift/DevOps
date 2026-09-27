@@ -33,7 +33,7 @@ Activity 2:
 
 Activity 3:
 
-- GCP.
+- Project created in GCP.
 ![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_2_Lab/screenshot_007.png)
 
 Activity 4:
@@ -49,7 +49,7 @@ Activity 5:
 Activity 6:
 
 - Git repo created and first commit.
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_2_Lab/screenshot_003.png)q
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_2_Lab/screenshot_003.png)
 
 Activity 7:
 
