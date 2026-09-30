@@ -15,15 +15,15 @@ Topics:
 - The Eight Phases of DevOps
 - Final Assignment Discussion
 
-- Required Reading:
+Required Reading:
 
-  - (The History of DevOps: A Visual Timeline)[https://whatis.techtarget.com/reference/The-history-of-DevOps-A-visual-timeline]
-  - (6 Companies That Are Doing DevOps Well)[https://www.helpsystems.com/blog/6-companies-are-doing-devops-well]
-  - (Wikipedia: DevOps)[https://en.wikipedia.org/wiki/DevOps]
-  - (A DevOps case study at one of the world's largest banks)[https://www.information-age.com/devops-case-study-banks-123482580/]
-  - (9The Eight Phases of a DevOps Pipeline)[https://medium.com/taptuit/the-eight-phases-of-a-devops-pipeline-fda53ec9bba]
+- (The History of DevOps: A Visual Timeline)[https://whatis.techtarget.com/reference/The-history-of-DevOps-A-visual-timeline]
+- (6 Companies That Are Doing DevOps Well)[https://www.helpsystems.com/blog/6-companies-are-doing-devops-well]
+- (Wikipedia: DevOps)[https://en.wikipedia.org/wiki/DevOps]
+- (A DevOps case study at one of the world's largest banks)[https://www.information-age.com/devops-case-study-banks-123482580/]
+- (9The Eight Phases of a DevOps Pipeline)[https://medium.com/taptuit/the-eight-phases-of-a-devops-pipeline-fda53ec9bba]
 
-- No lab or assignment due this week.
+No lab or assignment due this week.
 
 Notes:
 
@@ -56,7 +56,7 @@ Topics:
 
 Required:
 
-- (The Eight Phases of a DevOps PipelineLinks to an external site.)[https://medium.com/taptuit/the-eight-phases-of-a-devops-pipeline-fda53ec9bba]
+- (The Eight Phases of a DevOps Pipeline)[https://medium.com/taptuit/the-eight-phases-of-a-devops-pipeline-fda53ec9bba]
 - (Explore Trello (You could sign up for free and view the tutorials))[https://trello.com/?&aceid=&adposition=&adgroup=105703213368&campaign=9843285514&creative=437184392284&device=c&keyword=trello&matchtype=e&network=g&placement=&ds_kids=p53016482424&ds_e=GOOGLE&ds_eid=700000001557344&ds_e1=GOOGLE&gclid=EAIaIQobChMIhsHK-8Tu-QIV0D-tBh2DsgWVEAAYASAAEgI5qPD_BwE&gclsrc=aw.ds]
 
 Recommended:
@@ -93,5 +93,47 @@ The Product Owner owns the Features.
 ---
 
 ## Week 3
+
+Topics:
+
+- The DevOps Build Phase.
+- What are Build Automation Tools and Servers?
+- What are Frameworks and Package Managers?
+- Module 3 Lab.
+
+Required Reading:
+
+- (What is a Build Tool?)[https://mindmajix.com/12-open-source-devops-build-tools]
+- (Framework vs Library: Full Comparison.)[https://www.interviewbit.com/blog/framework-vs-library/]
+- (Dependency and Package Managers.)[https://builtin.com/software-engineering-perspectives/package-managers]
+- (NPM Introduction.)[https://www.w3schools.com/nodejs/nodejs_npm.asp]
+
+Notes:
+
+- Build: Scheduler, On-demand basis, Trigger basis.
+- CI/CD Tools: Jenkins, GH Actions, Octopus Deploy, Circle CI, Azure Pipelines.
+- Benefits: repeat consistently, prerequisite checks (pull libraries and dependencies), integrate tests (unit and integration), deploy and record audit trails.
+- What are frameworks?
+- What are libraries?
+- What are Package managers?
+- Demo of the Lab.
+
+---
+
+## Week 4
+
+Topics:
+
+- 
+
+- Required Reading:
+
+  - 
+
+Notes:
+
+- 
+
+---
 
 (to be continued)
