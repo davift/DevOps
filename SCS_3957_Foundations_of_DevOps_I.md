@@ -5,24 +5,18 @@ farhad.khurshid@utoronto.ca
 
 ## Week 1
 
-Introduction to DevOps: Core Values and Principles
-- Introduction to DevOps and Its Benefits
-- DevOps Core Values (CALMS)
-- Principles of DevOps (Three Ways)
+- Introduction to DevOps: Core Values and Principles
+  - Introduction to DevOps and Its Benefits
+  - DevOps Core Values (CALMS)
+  - Principles of DevOps (Three Ways)
 
 - Required Reading:
   - [The History of DevOps: A Visual Timeline](https://whatis.techtarget.com/reference/The-history-of-DevOps-A-visual-timeline)
   - [6 Companies That Are Doing DevOps Well](https://www.helpsystems.com/blog/6-companies-are-doing-devops-well)
   - [Wikipedia: DevOps](https://en.wikipedia.org/wiki/DevOps)
   - [A DevOps case study at one of the world’s largest banks](https://www.information-age.com/devops-case-study-banks-123482580/)
-- A few additional resources were shared after the class:
-  - https://framework.scaledagile.com/devops/
-  - https://www.atlassian.com/solutions/devops/maturity-model
-  - https://www.veritis.com/infographics/the-devops-evolution-a-maturity-model-journey/
-  - https://www.professional-devops.com/devops-maturity-model.html
-  - https://www.icf.com/insights/technology/the-5-phases-of-devops-maturity
 
-- Weekly Assignment 1
+- Weekly Assignment 1:
   - Select an organization and describe whether CALMS core values and the Three Ways principles are present.
   - List and provide examples to support your assessment.
   - Explain the current ways the organization is doing software delivery.
@@ -45,10 +39,10 @@ Notes:
 
 ## Week 2
 
-The Building Blocks of DevOps
-- Agile Versus Waterfall Approach
-- Agile Manifesto and Principles
-- Agile Frameworks and Practices - Scrum, Kanban, Lean, Kaizen, ITSM (ITLv4)
+- The Building Blocks of DevOps:
+  - Agile Versus Waterfall Approach
+  - Agile Manifesto and Principles
+  - Agile Frameworks and Practices - Scrum, Kanban, Lean, Kaizen, ITSM (ITLv4)
 
 - Required Reading:
   - [Agile Alliance: Agile Essentials](https://www.agilealliance.org/agile-essentials/)
@@ -57,7 +51,7 @@ The Building Blocks of DevOps
   - [Kanban University: Resources](https://kanban.university/)
   - [ITIL v4: a portrait of the fourth edition of the IT service framework](https://www.ionos.ca/digitalguide/online-marketing/online-sales/what-is-itil-v4/)
 
-- Weekly Assignment 2
+- Weekly Assignment 2:
   - Assess organization M (from Module 1) and list the various agile frameworks and practices.
   - How are these frameworks and practices working? Any changes you recommend and why?
   - You could create a table to provide your findings.
@@ -121,6 +115,26 @@ Note:
 - ITSM (ITILv4): for IT services.
 - SAFe: Scaled Agile Framework.
   - Large Scrum for large projects.
+
+---
+
+## Week 3
+
+- Topics:
+  - Organizational Culture.
+  - Establishing DevOps Values - Agile Mindset, Agile Environment, and Agile Teams.
+  - DevOps Operating Model.
+
+- Required Reading:
+  - (DevOps Dummies by Emily Freeman)[https://emilyfreeman.io/book]
+  - (The Phoenix Project by Gene Kim)[https://itrevolution.com/the-phoenix-project/]
+
+- Weekly Assignment 1:
+  - 
+- 
+
+Notes:
+- 
 
 ---
 
