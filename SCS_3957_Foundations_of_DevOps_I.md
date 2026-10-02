@@ -129,12 +129,52 @@ Note:
   - (DevOps Dummies by Emily Freeman)[https://emilyfreeman.io/book]
   - (The Phoenix Project by Gene Kim)[https://itrevolution.com/the-phoenix-project/]
 
-- Weekly Assignment 1:
-  - 
-- 
+- Weekly Assignment 3:
+  - Assess the strengths and weaknesses of the culture and develop a new Vision Statement for the organization operating model.
+  - List what benefits you would like to offer to support that Vision.
+  - No more than 1 page.
 
 Notes:
-- 
+- Cultural organization: Apathetic (indifferent), Caring, Exacting (reverse of caring), Integrative (both).
+- Culture of DevOps: Trust. Empowers engineers to learn freely, share responsibility and success, and eventually fail together.
+- Modeling company culture:
+  - Clan: collaborative, engagement is high, a desire for agreement and harmony.
+  - Meritocracy: a type of culture where great ideas are prioritized, whether the idea comes from the CEO or the lowest level.
+  - Holacracy: employees manage their work independently, with full autonomy, and the company structure is completely flat.
+  - Traditional hierarchy: outdated, may cause employees to stop innovating and suggesting new ideas
+- Agile Mindset:
+  - The law of the customer: an obsession with delivering steadily more value to customers.
+  - The law of the small team: a presumption that all work be carried out by small self-organizing teams, working in short cycles, and focused on delivering value to customers.
+  - The law of the network: the presumption that the organization operates as an interacting network of teams.
+- Agile Mindset Characteristics:
+  - Think in iterations
+  - Collaborate
+  - Embrace change
+  - Focus on delivering value
+  - Respect
+  - Strive for excellence
+- The Agile Environment: creates and supports a culture that encourages a team of people to work toward a common goal.
+- Characteristics of an Agile Environment:
+  - Leadership first.
+  - Business value is delivered by small, co-located, cross-functional teams.
+  - Team membership is stable over a longer period (~1y)
+  - Management
+  - Face-to-face
+  - Transparency
+  - Big projects are delivered as  a series of small projects.
+  - Frequent
+  - Relationships and results bring joy.
+  - Continuous improvements.
+- Keeping a great Agile environment:
+  - A shift of mindset.
+  - A shift of skills.
+  - A shift of behavior.
+- Agile team: 5 to 8, self-organized, self-starters, supportive.
+- Vision:
+  - Inspirational and meant to unify people behind a single, focused idea.
+  - Should reflect the principles of the founders but evolve.
+  - Decisions based on long-term goals, even at the cost of short-term wins.
+  - Must include: who you are, what you do, and where you need to go.
 
 ---
 
