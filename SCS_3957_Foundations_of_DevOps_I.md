@@ -178,4 +178,55 @@ Notes:
 
 ---
 
+## Week 4
+
+- Topics:
+  - Phases 1 to 4: Plan, Code, Build, and Test.
+
+- Required Reading:
+  - (The Eight Phases of a DevOps Pipeline by JakobTheDev)[https://medium.com/taptuit/the-eight-phases-of-a-devops-pipeline-fda53ec9bba]
+  - (The 8 Phases of Continuous Integration & Continuous Delivery)[https://www.densify.com/resources/continuous-integration-delivery-phases]
+
+- Weekly Assignment 4:
+  - List the tools, processes and approaches from the first 4 stages of DevOps that are in use within M.
+  - If your selected organization is currently not using any tools, processes and approaches, please recommend some.
+  - No more than 3 pages. You may create a table to illustrate your findings.
+
+Notes:
+
+- Planning:
+  - Product team develops the product vision, roadmap, and requirements.
+  - Development team prioritize tasks, details/refines requirements for design specification.
+  - Sprint Planning typically estimate effort (story points) and assign based on capacity.
+  - Tools: Jira, Rali, Lankit, GitLab, Azure Boards.
+- Coding:
+  - Pull stories from backlog and refine with peers about how to accomplish the requirements.
+  - For main aspects: IDEs, Code Frameworks, Source Control, and Containers.
+  - Containers (the class mixes VMs and CTs): Vagrant for VMs, Docker for CTs.
+  - Frameworks: Ruby on Tails, Express, Laravel, Django, Spring, React, Anmgular, Vue, Svelte, Foundation.
+  - IDE: VSCode, Sublime, Atom, IntelliJ, NetBeans.
+  - Source Control: Git, CVS, SVN.
+- Building:
+  - This is where DevOps kicks in.
+  - Developer submits a Pull Request or Merge Request, which triggers a workflow that builds and runs tests.
+  - Build Pipelines: code is compiled (if necessary), and packaged in a so called artifacts (container image).
+  - Testings: as part of the building process, some tests are also performed: Unit, Integration, Regression, System, Performance, User Acceptance.
+  - Security Code Validation: static analysis (mostly), dynamic analysis (more complex and rare).
+  - Tools: Jenkins, GitLab, GitHub Actions, CircleCI, TeamCity, Bamboo.
+  - Testing tools: Snyk, Aqua, Sysdig, SonarCube, OVS.
+- Testing:
+  - TDD (Test-driven Deployment): required to pass all checks before build is called valid.
+  - Tests: Functional-based, Code-based (Structural Test), Specification-based, 
+  - Levels of Testing: Requiremens Specification > Preliminary Design > Detailed Desing > Coding > Unit Testing > Integration Testing > System Testing.
+  - Functional Testing: End-to-End Testing.
+  - Non-Functional Testing: Accessibility, Storage, Configuration, Compatibility, Installation, Recovery, Maintenance.
+  - Unit: is the smallest testable part of an app.
+  - Integration: modules are combined and tested as a group.
+  - System: evaluate if the system is compliant with specified requirements.
+  - Secutiry: looks for code smells (known patterns that reveal secutiry issues on code practices).
+  - CVE: checks for vulnerable known packages, libraries, and other dependencies.
+  - Tools: Selenium, Katalon Studio.
+
+---
+
 (to be continued)
