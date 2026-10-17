@@ -5,4 +5,4 @@ From the document ***.pdf***
 Activity 1:
 
 - XXXXXXXXXXXXXXX.
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_5_Lab/XXXXXXXXXXXXXXXXXXXXXXX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_5_Lab_1/XXXXXXXXXXXXXXXXXXXXXXX.png)
