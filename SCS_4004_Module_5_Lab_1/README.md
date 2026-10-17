@@ -8,13 +8,13 @@ Activity 1:
 
 ![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_5_Lab_1/Screenshot_001.png)
 
-Activity 1:
+Activity 2:
 
 - Docker Core Commands.
 
 ![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_5_Lab_1/Screenshot_002.png)
 
-Activity 1:
+Activity 3:
 
 - Containerized the Student Profile app.
 
