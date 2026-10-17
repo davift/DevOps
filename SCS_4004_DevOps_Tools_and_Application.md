@@ -178,7 +178,7 @@ Notes:
   - Maintain proper documentation for organization and trasnsparency.
 - Examples of Tools:
   - Unit - Mocha (JS), JMeter
-  - Continuous - Bamboo, Docker, Jenkins.
+  - Continuous - Atlassian Bamboo, Docker, Jenkins.
   - Performance - JMeter, LoadNinja, Webloa, Predator, TestComplete.
   - Automated - Selenium, Lanwork, Jenkins.
 - Agile Testing approaches:
@@ -190,6 +190,44 @@ Notes:
 ---
 
 ## Week 5
+
+Topics:
+
+- The Release Management Phase
+- Source Code Repositories
+- Container Registries and Docker
+- Deployment Automation Tools (CI/CD Tool) and Jenkins
+
+- Required Reading:
+
+  - (Docker Overview)[https://docs.docker.com/get-started/overview/]
+  - (Jenkins Architecture)[https://www.jenkins.io/]
+  - (Node.js: How do I start with Node.js after I installed it?)[https://nodejs.org/en/docs/guides/getting-started-guide/]
+
+Notes:
+
+- Release Management
+  - Manage, plan, schedule, control software build and release through stages and evironments.
+  - Dev and Ops work together.
+  - Examples of tools: Service Now, HP Service Manager, BMC smart IT.
+  - Requires: documentation, approval of changes, rollback strategy, implementation plan/checklist, etc.
+  - Traditional SDLC RM teams manage 2~3 releases per week, while in DevOps the frequency can be hourly, daily, weekly.
+  - Releases Categories:
+    - System Changes - Less frequent because depends on software fixes.
+    - Major Changes - Less frequent because is more disruptive.
+    - Minor Changes - Very frequent for changes with low impact and high urgency.
+- RM Process Sections:
+  - Source Code Repository - Source Control (timestamped commits, author, etc) that allows tracing.
+  - Container Registry - Public or Private and store images.
+  - Deployment Automation - CI/CD Pipelines
+    - Continuous Integration (CI): Build > Test > Merge
+    - Continuous Delivery (CD): Create a release in the Repository/Registry
+    - Continuous Deployment (CD): Artifacts are executed in Prod.
+      - Tools: Jenkins, GitHub Actions, GitLab, CircleCI, TravisCI, Atlassian Bamboo.
+
+---
+
+## Week 6
 
 Topics:
 
