@@ -124,6 +124,75 @@ Notes:
 
 Topics:
 
+- The DevOps Test Phase
+- What is Software Testing and Test Cases
+- Different Levels and Types of Software Testing
+- Benefits of Testing and Best Practices
+- DevOps Testing Automation Tools
+- Agile DevOps Testing Approaches
+
+- Required Reading:
+
+  - (DevOps Testing Best Practices)[https://www.bmc.com/blogs/devops-testing/]
+  - (DevOps Testing Tools)[https://blog.hubspot.com/website/devops-testing-tools]
+  - (Mocha JavaScript Testing Tool for Node.js)[https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha]
+
+Module 4 Lab:
+  - Node.js Unit Testing Using Mocha Library
+
+Notes:
+
+- Test Phase:
+  - Manual and automated tests are performed as build is copmpleted.
+  - It is a component of the Build process (success build must pass all tests).
+  - Test must pass to proceed (promote code to release phase).
+  - Should test requirements, deployments, UX, features, and etc to provide feedback.
+- Test Cases:
+  - Specification-Based Testing aka Functional Testing
+    - Independent of implementation.
+    - Can be done in parallel with the implementation.
+  - Code-Based Testing aka Structural Testing
+    - Implementation is known and used to identify test cases.
+    - Look inside the implementation to tests all possible paths.
+- Functional Testing:
+  - Unit:
+    - Always the very first testing.
+    - Modules are tested independently of the application.
+    - Purpose of testing their individual performance.
+  - Integration:
+    - Starts after the unit testing.
+    - Tests the dataflow between modules or interfaces.
+    - Purpose to test statement accuracy between modules.
+  - End-to-End (E2E):
+    - Also know as System Testing, starts after integration testing.
+    - Tests beyond the system to demonstrate the app meet its objectives.
+    - It requires a written, measureable objectives and criteria.
+- Non-Functional Testing:
+  - Also know as performance testing.
+  - Focus on: different volumes of data, different number of concurrent users (load/stress), usability (easy of use/accessibility), security, and performance (speed and resources utilization), configuration, compatibility, install, backup/recovery, maintenance (upgrade).
+- Challanges of traditions testing in SDLC: Slow, Costly, Error pron.
+- Benefits of testing in DevOps env: Cheap, Fast, Repetiteable.
+- Best Practicies:
+  - Pair Programming (coder and reviewer)
+  - Frequent merges to remote repository.
+  - Maintain proper documentation for organization and trasnsparency.
+- Examples of Tools:
+  - Unit - Mocha (JS), JMeter
+  - Continuous - Bamboo, Docker, Jenkins.
+  - Performance - JMeter, LoadNinja, Webloa, Predator, TestComplete.
+  - Automated - Selenium, Lanwork, Jenkins.
+- Agile Testing approaches:
+  - TDD - Test Driven Development
+    - The test case is developed first and the code after.
+  - BDD - Behavior-Driven Development 
+    - Test cases for functionality testing (requires developer, tester, and business user).
+
+---
+
+## Week 5
+
+Topics:
+
 - 
 
 - Required Reading:
