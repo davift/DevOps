@@ -1,0 +1,13 @@
+{
+  "name": "student-profile-app",
+  "version": "1.0.0",
+  "description": "Student Profile App — the running example for this course",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dayjs": "^1.11.23"
+  }
+}
