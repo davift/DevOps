@@ -244,8 +244,59 @@ Notes:
 
 Notes:
 
-- 
+- Release
+  - RM is a neutral facilitator between Dev and Ops.
+  - RM leads the following areas:
+    - Architectural complexity, interdependent and independent components, and dependencies.
+    - Understanding of the whole infrastructure ecosystem, scalability, capacity, migrations, etc.
+    - Document post-deployment/release lessons learned (retrospection) to simplify procedures.
+    - Agile sprints, optimal resource usage, contingency/rollback preparation.
+  - Sections:
+    - Source Code Repo
+    - Container Registry
+    - Deployment Automation
+- Deploy
+  - The process of upgrading the release to servers in each stage.
+  - Includes: traffic/user migration, testing, real user acceptance, non-functional requirements (NFRs) and feature validation.
+  - Manages per environment: key and configuration.
+- Operate
+  - It is frequently combined with Monitoring.
+  - Areas: 
+    - Security - Vulnerability or weakness in code, environment, and operation.
+      - DevSecOps - Bakes in security at every phase.
+    - Container & Infrastructure - Manages the creation, deployment, destruction, and scaling of apps or systems.
+    - Orchestration - Automates deployment, scaling, and management of workloads and services (e.g., K8s).
+  - Tools: Sysdig, Falco, BackDuck, Bench, TUF, NeuVector, Docker Swarm, Pivotal, HashiCorp Nomad, UrbanCode, OpenShift, etc.
+- Monitor
+  - Collects and instruments everything in their DevOps environment to get control and visibility.
+    - Gather and sort data.
+    - Look for patterns.
+    - Automate and remediate.
+    - Assume worst-case.
+  - Approaches:
+    - Behavior-driven deployment (BDD) - deliver business features rather than technical features.
+    - Requires observability, dependability, continuous testing, collecting NFRs, and delivering feedback.
+  - Tools: AppDynamics, New Relic, Dynatrace, Splunk, Nagios, Prometheus, Datadog.
+- DevOps lifecycle concepts that need to be defined inside the organization (note: they overlap):
+  - Continuous Integration (CI)
+  - Continuous Delivery (CD)
+  - Continuous Deployment (CDp)
+  - Continuous Feedback (CF)
+  - Continuous Testing (CT)
+  - Continuous Monitoring (CM)
 
 ---
+
+## Week 6
+
+- Topics:
+  - 
+
+- Required Reading:
+  - 
+
+Notes:
+
+- 
 
 (to be continued)
