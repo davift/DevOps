@@ -53,7 +53,7 @@ Notes:
 
 - Weekly Assignment 2:
   - Assess organization M (from Module 1) and list the various agile frameworks and practices.
-  - How are these frameworks and practices working? Any changes you recommend and why?
+  - How are these frameworks and practices working? Any changes you recommend, and why?
   - You could create a table to provide your findings.
   - No more than 3 pages (maximum 1,500 words single-spaced, in 12pt font).
 
@@ -93,7 +93,7 @@ Note:
 - Scrum Values:
   - People personally commit to the team's goal.
   - The team dares to do the right thing.
-  - Team focused on Sprint work.
+  - The team focuses on Sprint work.
   - Stakeholders (all) agree to be open about challenges.
   - Respect each other to be capable and independent.
 - Scrum Team:
@@ -141,9 +141,9 @@ Notes:
   - Clan: collaborative, engagement is high, a desire for agreement and harmony.
   - Meritocracy: a type of culture where great ideas are prioritized, whether the idea comes from the CEO or the lowest level.
   - Holacracy: employees manage their work independently, with full autonomy, and the company structure is completely flat.
-  - Traditional hierarchy: outdated, may cause employees to stop innovating and suggesting new ideas
+  - Traditional hierarchy: outdated and may cause employees to stop innovating and suggesting new ideas
 - Agile Mindset:
-  - The law of the customer: an obsession with delivering steadily more value to customers.
+  - The law of the customer: an obsession with delivering more value steadily to customers.
   - The law of the small team: a presumption that all work be carried out by small self-organizing teams, working in short cycles, and focused on delivering value to customers.
   - The law of the network: the presumption that the organization operates as an interacting network of teams.
 - Agile Mindset Characteristics:
@@ -196,34 +196,34 @@ Notes:
 
 - Planning:
   - Product team develops the product vision, roadmap, and requirements.
-  - Development team prioritize tasks, details/refines requirements for design specification.
-  - Sprint Planning typically estimate effort (story points) and assign based on capacity.
+  - Development team prioritizes tasks, details/refines requirements for design specification.
+  - Sprint Planning typically estimates effort (story points) and assigns based on capacity.
   - Tools: Jira, Rali, Lankit, GitLab, Azure Boards.
 - Coding:
-  - Pull stories from backlog and refine with peers about how to accomplish the requirements.
+  - Pull stories from the backlog and refine with peers about how to accomplish the requirements.
   - For main aspects: IDEs, Code Frameworks, Source Control, and Containers.
   - Containers (the class mixes VMs and CTs): Vagrant for VMs, Docker for CTs.
-  - Frameworks: Ruby on Tails, Express, Laravel, Django, Spring, React, Anmgular, Vue, Svelte, Foundation.
+  - Frameworks: Ruby on Rails, Express, Laravel, Django, Spring, React, Angular, Vue, Svelte, Foundation.
   - IDE: VSCode, Sublime, Atom, IntelliJ, NetBeans.
   - Source Control: Git, CVS, SVN.
 - Building:
   - This is where DevOps kicks in.
   - Developer submits a Pull Request or Merge Request, which triggers a workflow that builds and runs tests.
-  - Build Pipelines: code is compiled (if necessary), and packaged in a so called artifacts (container image).
-  - Testings: as part of the building process, some tests are also performed: Unit, Integration, Regression, System, Performance, User Acceptance.
+  - Build Pipelines: code is compiled (if necessary) and packaged into so-called artifacts (container image).
+  - Testing: as part of the building process, some tests are also performed: Unit, Integration, Regression, System, Performance, User Acceptance.
   - Security Code Validation: static analysis (mostly), dynamic analysis (more complex and rare).
   - Tools: Jenkins, GitLab, GitHub Actions, CircleCI, TeamCity, Bamboo.
   - Testing tools: Snyk, Aqua, Sysdig, SonarCube, OVS.
 - Testing:
-  - TDD (Test-driven Deployment): required to pass all checks before build is called valid.
+  - TDD (Test-driven Deployment): required to pass all checks before the build is considered valid.
   - Tests: Functional-based, Code-based (Structural Test), Specification-based, 
   - Levels of Testing: Requiremens Specification > Preliminary Design > Detailed Desing > Coding > Unit Testing > Integration Testing > System Testing.
   - Functional Testing: End-to-End Testing.
   - Non-Functional Testing: Accessibility, Storage, Configuration, Compatibility, Installation, Recovery, Maintenance.
   - Unit: is the smallest testable part of an app.
   - Integration: modules are combined and tested as a group.
-  - System: evaluate if the system is compliant with specified requirements.
-  - Secutiry: looks for code smells (known patterns that reveal secutiry issues on code practices).
+  - System: evaluates if the system is compliant with specified requirements.
+  - Security: looks for code smells (known patterns that reveal security issues in code practices).
   - CVE: checks for vulnerable known packages, libraries, and other dependencies.
   - Tools: Selenium, Katalon Studio.
 
