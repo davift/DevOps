@@ -229,4 +229,23 @@ Notes:
 
 ---
 
+## Week 5
+
+- Topics:
+  - Phases 5 to 8: Release, Deploy, Operate, Monitor.
+
+- Required Reading:
+  - (The Eight Phases of a DevOps Pipeline by JakobTheDev)[https://medium.com/taptuit/the-eight-phases-of-a-devops-pipeline-fda53ec9bba]
+  - (The 8 Phases of Continuous Integration & Continuous Delivery)[https://www.densify.com/resources/continuous-integration-delivery-phases]
+
+- Weekly Assignment 5:
+  - Create a table of the tools, processes, and approaches used by organization M for the last 4 phases.
+  - You are encouraged to do additional research if needed or use the tools summary slides provided in this module.
+
+Notes:
+
+- 
+
+---
+
 (to be continued)
