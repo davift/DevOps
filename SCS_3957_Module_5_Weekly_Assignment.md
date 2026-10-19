@@ -14,17 +14,17 @@ DevOps Stages Analysis: Release, Deploy, Operate, Monitor.
 
 | Teams | Release | Deploy | Operate | Monitor |
 |---|---|---|---|---|
-| Team A (Devs) | XXX | XXX | XXX | XXX |
-| Teams B and C (Devs) | XXX | XXX | XXX | XXX |
-| Team D (DevOps) | XXX | XXX | XXX | XXX |
+| Team A (Devs) | Release numbers via GitHub, AWS ECR. | AWS EventBridge, Jenkins, AWS ECS. | XXX | XXX |
+| Teams B and C (Devs) | GitHub: latest commit in main branch (no version numbers are assigned). | Manual deployment, AWS EC2. | XXX | XXX |
+| Team D (DevOps) | GitHub: commit hashes are the unique identifier of version. | Terraform, Ansible (run manually), AWS S3 (state storage). | XXX | XXX |
 
 **Table 2:** Processes and Approaches
 
 | Teams | Release | Deploy | Operate | Monitor |
 |---|---|---|---|---|
-| Team A (Devs) | XXX | XXX | XXX | XXX |
-| Teams B and C (Devs) | XXX | XXX | XXX | XXX |
-| Team D (DevOps) | XXX | XXX | XXX | XXX |
+| Team A (Devs) | Releases are versioned with release numbers (X.Y.Z). Artifacts are pushed to AWS ECR tagged with version number. | Any ECR push triggers EventBridge, which sends a request to a Jenkins' endpoint that starts a deployment pipeline, that sits paused for human approval before deploying to Prod (AWS ECS). The last step is to start another pipeline for rolling back changes. It sits paused until it is approved or declined after a few days. | XXX | XXX |
+| Teams B and C (Devs) | No formal release process or versioning. The release is whatever the state of the main branch is at the time of deployment. | Very manual deployments to AWS EC2. Developers have production access to troubleshoot and occasionally fix issues manually (hotfixes). Those changes are then ported back to source control. | XXX | XXX |
+| Team D (DevOps) | No formal release process. IaC changes are released by merging to the repository. The commit hash is copied to the Jira story for tracking. | Manual deployment per environment (Dev, Test, Stage, and Pord), run from the DevOps engineer’s own computer using their personal credentials (API keys). The state of the assets is synchronized with AWS S3. | XXX | XXX |
 
 **Observations**
 
