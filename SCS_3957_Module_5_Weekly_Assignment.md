@@ -28,12 +28,19 @@ DevOps Stages Analysis: Release, Deploy, Operate, Monitor.
 
 **Observations**
 
-- All Teams
-  - XXX
+**Observations**
 
 - Comparison
-  - XXX
+  - Only Team A has formal versioning and an automated trigger from artifact to pipeline.
+  - Team A has an approval gate (other than the peer review on PRs before merging to `main`, while the other teams rely on manual execution by individuals.
+  - Release: Team A produces versioned, immutable artifacts. Teams B, C and D deploy whatever is on `main`, so a given deployment cannot be reliably identified, reproduced, or rolled back.
+  - Deploy: Team A is the only team with a pipeline, and its approval gate for deplying and for rolling back. Teams B, C and D depend on individuals for deployments (Dev and Prod). Teams B and C sometimes fix things manually in production and port the changes back afterward.
 
 **Recommendations**
 
-- XXX
+- Teams B and C:
+  - Introduce versioning (e.g., Git tags or release numbers) and build immutable artifacts. This is a prerequisite for any further automation.
+  - Formalize deployments into a pipeline with an approval gate. Reuse or replicate Team A's EventBridge/Jenkins pattern where possible.
+  - Restrict production access, and require any fix to be done via story and PR. Export logs to a place where Devs can see without logging to the EC2 (e.g., ELK, AWS CloudWatch).
+- Team D:
+  - Move Terraform and Ansible execution to a pipeline with a service role, and tied to the approval flow. This removes personal API keys and creates an audit trail.
