@@ -28,13 +28,10 @@ DevOps Stages Analysis: Release, Deploy, Operate, Monitor.
 
 **Observations**
 
-**Observations**
-
 - Comparison
-  - Only Team A has formal versioning and an automated trigger from artifact to pipeline.
-  - Team A has an approval gate (other than the peer review on PRs before merging to `main`, while the other teams rely on manual execution by individuals.
-  - Release: Team A produces versioned, immutable artifacts. Teams B, C and D deploy whatever is on `main`, so a given deployment cannot be reliably identified, reproduced, or rolled back.
   - Deploy: Team A is the only team with a pipeline, and its approval gate for deplying and for rolling back. Teams B, C and D depend on individuals for deployments (Dev and Prod). Teams B and C sometimes fix things manually in production and port the changes back afterward.
+  - Operate: Team A operates through pipelines (deploy and rollback), while Teams B and C operate by hand on the servers (high risk). Team D's operation is mostly on demand, because the infrastructure it manages is static.
+  - Monitor: all teams share the same monitoring stack (ELK, Prometheus), but Team D (DevOps) do all the monitoring, while Devs only get access to logs and maybe a few read-only dashboards.
 
 **Recommendations**
 
@@ -44,3 +41,5 @@ DevOps Stages Analysis: Release, Deploy, Operate, Monitor.
   - Restrict production access, and require any fix to be done via story and PR. Export logs to a place where Devs can see without logging to the EC2 (e.g., ELK, AWS CloudWatch).
 - Team D:
   - Move Terraform and Ansible execution to a pipeline with a service role, and tied to the approval flow. This removes personal API keys and creates an audit trail.
+- All teams:
+  - Define consistent alerting rules and ownership on top of the existing ELK and Prometheus data (e.g., error rates, latency, resource saturation, and billing anomalies), and route them to the team on call, so issues are detected proactively rather than reported by clients.
