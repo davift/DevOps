@@ -31,19 +31,19 @@ Activity 6:
 
 - Re-platform the App onto PostgreSQL.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_6_Lab/Screenshot_0XX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_6_Lab/Screenshot_005.png)
 
 Activity 7:
 
 - Encrypt the Database Credentials with Ansible Vault.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_6_Lab/Screenshot_0XX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_6_Lab/Screenshot_006.png)
 
 Activity 8:
 
 - Install the Docker Collection and Deploy.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_6_Lab/Screenshot_0XX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_6_Lab/Screenshot_007.png)
 
 
 
