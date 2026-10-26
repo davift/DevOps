@@ -231,6 +231,55 @@ Notes:
 
 Topics:
 
+- The Deployment Management Phase.
+- Key Management in DevOps.
+- Configuration Management in DevOps.
+
+- Required Reading:
+
+  - (Key Secret Management, Geekflare Editorial)[https://geekflare.com/secret-management-software/]
+  - (Configuration Management, Red Hat Editorial)[https://www.redhat.com/en/topics/automation/what-is-configuration-management]
+  - (Getting Started with Ansible, Ansible Documentation)[https://docs.ansible.com/ansible/latest/getting_started/index.html]
+
+Notes:
+
+- Deployment Phase: build code is released into different target environments.
+- Builds are required  to pass their respective quality gates, or they will be rolled back.
+- Deployment Management:
+  - Key Management (aka Secret Management)
+    - Securely stores sensitive data (e.g., Passwords, Keys, Certs, Tokens).
+    - Main Features: Audit/Trail, Access Control/Permissions, Scalability.
+    - Tools: Docker Secrets, HashiCorp Vault, AWS Secrets Manager.
+  - CM (Configuration Management)
+    - Keeps track of configuration changes (everything is documented).
+    - Integrated with CI/CD and other DevOps tools.
+    - Guarantees compliance, consistency, security, etc.
+    - Planning: Personnel, Responsibilities and Resources, Admin Guidelines including Procedures and Tools, Audits and Reviews, Controls and Status, Naming Conventions, Contractors/Vendors CM Req.
+  - CI (Configuration Identification)
+  - CSA (Configuration Status Accounting)
+  - Types of CM:
+    - CaC (Configuration-as-a-Code)
+      - Tools: Ansible, Puppet, SaltStack, Chef.
+    - IaC (Infrastructure-as-a-Code)
+      - Tools: Terraform (also overlaps with CaC).
+- Ansible Terms:
+  - Ansible server: The machine where playbooks will be run from.
+  - Module: A command or set of similar commands meant to be executed on the client-side.
+  - Task: A task is a section that consists of a single procedure.
+  - Role: A way of organizing tasks and related files to be later called by playbooks.
+  - Fact: Information fetched from the client system from the global variables (gather-facts).
+  - Inventory: File containing data about the targets.
+  - Play: Execution of a playbook.
+  - Handler: Task that is called only if a notifier is present.
+  - Notifier: Section attributed to a task that calls a handler if the output is changed.
+  - Tag: Name/identifier set to a task.
+
+---
+
+## Week 7
+
+Topics:
+
 - 
 
 - Required Reading:
