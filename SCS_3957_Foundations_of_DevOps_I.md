@@ -42,7 +42,7 @@ Notes:
 - The Building Blocks of DevOps:
   - Agile Versus Waterfall Approach
   - Agile Manifesto and Principles
-  - Agile Frameworks and Practices - Scrum, Kanban, Lean, Kaizen, ITSM (ITLv4)
+  - Agile Frameworks and Practices - Scrum, Kanban, Lean, Kaizen, ITSM (ITILv4)
 
 - Required Reading:
   - [Agile Alliance: Agile Essentials](https://www.agilealliance.org/agile-essentials/)
@@ -126,8 +126,8 @@ Note:
   - DevOps Operating Model.
 
 - Required Reading:
-  - (DevOps Dummies by Emily Freeman)[https://emilyfreeman.io/book]
-  - (The Phoenix Project by Gene Kim)[https://itrevolution.com/the-phoenix-project/]
+  - [DevOps for Dummies by Emily Freeman](https://emilyfreeman.io/book)
+  - [The Phoenix Project by Gene Kim](https://itrevolution.com/the-phoenix-project/)
 
 - Weekly Assignment 3:
   - Assess the strengths and weaknesses of the culture and develop a new Vision Statement for the organization operating model.
@@ -141,7 +141,7 @@ Notes:
   - Clan: collaborative, engagement is high, a desire for agreement and harmony.
   - Meritocracy: a type of culture where great ideas are prioritized, whether the idea comes from the CEO or the lowest level.
   - Holacracy: employees manage their work independently, with full autonomy, and the company structure is completely flat.
-  - Traditional hierarchy: outdated and may cause employees to stop innovating and suggesting new ideas
+  - Traditional hierarchy: outdated and may cause employees to stop innovating and suggesting new ideas.
 - Agile Mindset:
   - The law of the customer: an obsession with delivering more value steadily to customers.
   - The law of the small team: a presumption that all work be carried out by small self-organizing teams, working in short cycles, and focused on delivering value to customers.
@@ -161,7 +161,7 @@ Notes:
   - Management
   - Face-to-face
   - Transparency
-  - Big projects are delivered as  a series of small projects.
+  - Big projects are delivered as a series of small projects.
   - Frequent
   - Relationships and results bring joy.
   - Continuous improvements.
@@ -184,8 +184,8 @@ Notes:
   - Phases 1 to 4: Plan, Code, Build, and Test.
 
 - Required Reading:
-  - (The Eight Phases of a DevOps Pipeline by JakobTheDev)[https://medium.com/taptuit/the-eight-phases-of-a-devops-pipeline-fda53ec9bba]
-  - (The 8 Phases of Continuous Integration & Continuous Delivery)[https://www.densify.com/resources/continuous-integration-delivery-phases]
+  - [The Eight Phases of a DevOps Pipeline by JakobTheDev](https://medium.com/taptuit/the-eight-phases-of-a-devops-pipeline-fda53ec9bba)
+  - [The 8 Phases of Continuous Integration & Continuous Delivery](https://www.densify.com/resources/continuous-integration-delivery-phases)
 
 - Weekly Assignment 4:
   - List the tools, processes, and approaches from the first 4 stages of DevOps that are in use within M.
@@ -198,7 +198,7 @@ Notes:
   - Product team develops the product vision, roadmap, and requirements.
   - Development team prioritizes tasks, details/refines requirements for design specification.
   - Sprint Planning typically estimates effort (story points) and assigns based on capacity.
-  - Tools: Jira, Rali, Lankit, GitLab, Azure Boards.
+  - Tools: Jira, Rally, LeanKit, GitLab, Azure Boards.
 - Coding:
   - Pull stories from the backlog and refine with peers about how to accomplish the requirements.
   - For main aspects: IDEs, Code Frameworks, Source Control, and Containers.
@@ -213,11 +213,11 @@ Notes:
   - Testing: as part of the building process, some tests are also performed: Unit, Integration, Regression, System, Performance, User Acceptance.
   - Security Code Validation: static analysis (mostly), dynamic analysis (more complex and rare).
   - Tools: Jenkins, GitLab, GitHub Actions, CircleCI, TeamCity, Bamboo.
-  - Testing tools: Snyk, Aqua, Sysdig, SonarCube, OVS.
+  - Testing tools: Snyk, Aqua, Sysdig, SonarQube, OVS.
 - Testing:
-  - TDD (Test-driven Deployment): required to pass all checks before the build is considered valid.
-  - Tests: Functional-based, Code-based (Structural Test), Specification-based, 
-  - Levels of Testing: Requiremens Specification > Preliminary Design > Detailed Desing > Coding > Unit Testing > Integration Testing > System Testing.
+  - TDD (Test-Driven Development): required to pass all checks before the build is considered valid.
+  - Tests: Functional-based, Code-based (Structural Test), Specification-based.
+  - Levels of Testing: Requirements Specification > Preliminary Design > Detailed Design > Coding > Unit Testing > Integration Testing > System Testing.
   - Functional Testing: End-to-End Testing.
   - Non-Functional Testing: Accessibility, Storage, Configuration, Compatibility, Installation, Recovery, Maintenance.
   - Unit: is the smallest testable part of an app.
@@ -235,8 +235,8 @@ Notes:
   - Phases 5 to 8: Release, Deploy, Operate, Monitor.
 
 - Required Reading:
-  - (The Eight Phases of a DevOps Pipeline by JakobTheDev)[https://medium.com/taptuit/the-eight-phases-of-a-devops-pipeline-fda53ec9bba]
-  - (The 8 Phases of Continuous Integration & Continuous Delivery)[https://www.densify.com/resources/continuous-integration-delivery-phases]
+  - [The Eight Phases of a DevOps Pipeline by JakobTheDev](https://medium.com/taptuit/the-eight-phases-of-a-devops-pipeline-fda53ec9bba)
+  - [The 8 Phases of Continuous Integration & Continuous Delivery](https://www.densify.com/resources/continuous-integration-delivery-phases)
 
 - Weekly Assignment 5:
   - Create a table of the tools, processes, and approaches used by organization M for the last 4 phases.
@@ -266,7 +266,7 @@ Notes:
       - DevSecOps - Bakes in security at every phase.
     - Container & Infrastructure - Manages the creation, deployment, destruction, and scaling of apps or systems.
     - Orchestration - Automates deployment, scaling, and management of workloads and services (e.g., K8s).
-  - Tools: Sysdig, Falco, BackDuck, Bench, TUF, NeuVector, Docker Swarm, Pivotal, HashiCorp Nomad, UrbanCode, OpenShift, etc.
+  - Tools: Sysdig, Falco, Black Duck, Bench, TUF, NeuVector, Docker Swarm, Pivotal, HashiCorp Nomad, UrbanCode, OpenShift, etc.
 - Monitor
   - Collects and instruments everything in their DevOps environment to get control and visibility.
     - Gather and sort data.
@@ -274,7 +274,7 @@ Notes:
     - Automate and remediate.
     - Assume worst-case.
   - Approaches:
-    - Behavior-driven deployment (BDD) - deliver business features rather than technical features.
+    - Behavior-Driven Development (BDD) - deliver business features rather than technical features.
     - Requires observability, dependability, continuous testing, collecting NFRs, and delivering feedback.
   - Tools: AppDynamics, New Relic, Dynatrace, Splunk, Nagios, Prometheus, Datadog.
 - DevOps lifecycle concepts that need to be defined inside the organization (note: they overlap):
@@ -295,11 +295,11 @@ Notes:
   - DevOps Metrics
 
 - Required Reading:
-  - (Organizational Change & Transformation - 6 Critical Differences and Why They Matter)[https://www.intelivate.com/team-strategy/transformation-vs-change-6-differences]
-  - (Change vs Transformation: What Are the Differences?)[https://www.cioinsight.com/news-trends/the-difference-between-change-and-transformation/]
-  - (What is change management? A guide to organizational transformation)[https://www.cio.com/article/272222/change-management-change-management-definition-and-solutions.html]
-  - (The Four Principles of Change Management)[https://www.mindtools.com/pages/article/newPPM_87.htm]
-  - (How to start DevOps: A step-by-step guide)[https://searchitoperations.techtarget.com/tip/How-to-start-DevOps-A-step-by-step-guide]
+  - [Organizational Change & Transformation - 6 Critical Differences and Why They Matter](https://www.intelivate.com/team-strategy/transformation-vs-change-6-differences)
+  - [Change vs Transformation: What Are the Differences?](https://www.cioinsight.com/news-trends/the-difference-between-change-and-transformation/)
+  - [What is change management? A guide to organizational transformation](https://www.cio.com/article/272222/change-management-change-management-definition-and-solutions.html)
+  - [The Four Principles of Change Management](https://www.mindtools.com/pages/article/newPPM_87.htm)
+  - [How to start DevOps: A step-by-step guide](https://searchitoperations.techtarget.com/tip/How-to-start-DevOps-A-step-by-step-guide)
 
 Notes:
 
@@ -330,9 +330,10 @@ Notes:
     - Communicate
     - Remove Obstacles
     - Short-Term Wins
+    - Build on the Change
     - Anchor Change
 - Metrics
-  - You can not manage what you cannot measure.
+  - You cannot manage what you cannot measure.
   - Define what metrics are required to manage it.
   - Continuously create, collect, and analyse metrics.
   - Broad categories by:
@@ -356,4 +357,3 @@ Notes:
       - Failed Deploys (how many deploys go bad and how many cause incidents?)
       - Error Rates (how many exceptions get thrown in production?)
       - Application Usage and Traffic (is an Application Performance Management tool being used?)
-
