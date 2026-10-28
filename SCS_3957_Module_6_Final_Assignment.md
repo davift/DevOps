@@ -10,4 +10,16 @@ Student: Davi Torres
 ## Paper
 
 
+# DevOps Roadmap and Change Management Plan
+
+| Theme | Current State | MVP 1 (Q1): Change Management Activities | MVP 2 (Q2): Change Management Activities | MVP 3 (Q3): Change Management Activities | Final Future State | Assumptions and Recommendation |
+|---|---|---|---|---|---|---|
+| **Leadership** | X | Y | Z | M | N | O |
+| **Organizational and Culture** | X | Y | Z | M | N | O |
+| **Team** | X | Y | Z | M | N | O |
+| **Process** | X | Y | Z | M | N | O |
+| **Tools** | X | Y | Z | M | N | O |
+| **Infrastructure** | X | Y | Z | M | N | O |
+| **Other** | X | Y | Z | M | N | O |
+
 
