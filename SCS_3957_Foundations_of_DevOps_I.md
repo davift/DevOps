@@ -301,6 +301,11 @@ Notes:
   - [The Four Principles of Change Management](https://www.mindtools.com/pages/article/newPPM_87.htm)
   - [How to start DevOps: A step-by-step guide](https://searchitoperations.techtarget.com/tip/How-to-start-DevOps-A-step-by-step-guide)
 
+- Final Assignment:
+  - Complete a high-level DevOps Roadmap for M. Also provide a change management plan and a realistic timeline for the change as part of the roadmap.
+  - You may use the sample table provided in Quercus.
+  - No more than 3 pages (maximum 1500 words, single-spaced, in 12pt font).
+
 Notes:
 
 - Organizational Change
