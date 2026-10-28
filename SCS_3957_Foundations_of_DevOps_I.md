@@ -290,13 +290,70 @@ Notes:
 ## Week 6
 
 - Topics:
-  - 
+  - Change Management and Transformation
+  - Change Management Principles
+  - DevOps Metrics
 
 - Required Reading:
-  - 
+  - (Organizational Change & Transformation - 6 Critical Differences and Why They Matter)[https://www.intelivate.com/team-strategy/transformation-vs-change-6-differences]
+  - (Change vs Transformation: What Are the Differences?)[https://www.cioinsight.com/news-trends/the-difference-between-change-and-transformation/]
+  - (What is change management? A guide to organizational transformation)[https://www.cio.com/article/272222/change-management-change-management-definition-and-solutions.html]
+  - (The Four Principles of Change Management)[https://www.mindtools.com/pages/article/newPPM_87.htm]
+  - (How to start DevOps: A step-by-step guide)[https://searchitoperations.techtarget.com/tip/How-to-start-DevOps-A-step-by-step-guide]
 
 Notes:
 
-- 
+- Organizational Change
+  - A constant force for alteration in the environment, structure, technology, or people.
+  - An organizational reality that can provide opportunities or threats.
+  - Involves rearranging priorities and leadership.
+    - "If you want to change the culture, you will have to start by changing the organization" (Mary Douglas - https://en.wikipedia.org/wiki/Mary_Douglas)
+- Change Management vs Transformation
+  - Assessing the past > Comparing it to the present > Determining the ideal future state.
+  - Success measurement: how much better the future state is.
+- DevOps in Digital Transformation
+  - Cultural transformation.
+  - Collaborative thought process.
+  - Change in mindset.
+  - Tools, technology, processes, governance, and leadership alone do not change those factors effectively.
+- Change Management Principles
+  - Is concerned with the people, structure, culture, and leadership.
+  - Core Principles:
+    - Understand Change
+    - Plan Change
+    - Implement Change
+    - Communicate Change
+  - Kotter's 8-Step Change Model:
+    - Create Urgency
+    - Form a Coalition
+    - Create a Vision
+    - Communicate
+    - Remove Obstacles
+    - Short-Term Wins
+    - Anchor Change
+- Metrics
+  - You can not manage what you cannot measure.
+  - Define what metrics are required to manage it.
+  - Continuously create, collect, and analyse metrics.
+  - Broad categories by:
+    - People
+      - Employee Satisfaction
+      - Customer Satisfaction
+      - Customer Usage
+      - Number of Tickets
+    - Process
+      - Deployment Frequency (is it manual?)
+      - Size of Deploys (can it be broken down?)
+      - Deployment Length / Duration (is it manual?)
+      - Defect Escape Rate (what and why were not captured in review, test, and QA?)
+      - Recurring Failures (was a test written the first time a bug is fixed?)
+      - Lead Time (how much time between starting and deploying to prod?)
+      - Mean Time to Detection (MTTD)
+      - Mean Time to Recovery (MTTR)
+    - Technology
+      - Automated Test Coverage (how much of your application is tested?)
+      - Availability (what is the uptime and does it meet the SLA?)
+      - Failed Deploys (how many deploys go bad and how many cause incidents?)
+      - Error Rates (how many exceptions get thrown in production?)
+      - Application Usage and Traffic (is an Application Performance Management tool being used?)
 
-(to be continued)
