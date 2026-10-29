@@ -7,7 +7,7 @@ Student: Davi Torres
   - You may use the sample table provided in Quercus.
   - No more than 3 pages (maximum 1500 words, single-spaced, in 12pt font).
 
-## Paper
+## Final Paper
 
 
 # DevOps Roadmap and Change Management Plan
