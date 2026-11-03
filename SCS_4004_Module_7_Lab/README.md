@@ -24,9 +24,9 @@ Activity 3:
 
 - Provision Infrastructure for the Student Profile Stack.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_0XX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_006.png)
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_0XX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_007.png)
 
 Activity 4:
 
