@@ -32,12 +32,12 @@ Activity 4:
 
 - Provision Real Infrastructure on Google Cloud.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_0XX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_008.png)
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_0XX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_009.png)
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_0XX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_010.png)
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_0XX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_011.png)
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_0XX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_7_Lab/Screenshot_012.png)
