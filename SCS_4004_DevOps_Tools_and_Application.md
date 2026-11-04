@@ -1,4 +1,4 @@
-# SCS_4005 DevOps Tools and Application
+# SCS_4004 DevOps Tools and Application
 
 Farhad Khurshid
 farhad.khurshid@utoronto.ca
@@ -280,6 +280,37 @@ Notes:
 
 Topics:
 
+- Infrastructure as Code (IaC) Tool Example: Terraform
+
+- Required Reading:
+
+  - [What is Infrastructure as Code with Terraform?](https://learn.hashicorp.com/tutorials/terraform/infrastructure-as-code?in=terraform/gcp-get-started)
+
+Notes:
+
+- IaC
+  - Build, change, and manage your infrastructure.
+  - It is consistent/standardized, repeatable, and collaborative (with remote state backends).
+  - Resource configurations are defined in code: version-controlled, reusable, and shareable.
+- Tool: Terraform
+  - Human-readable, declarative configuration for managing your infrastructure's lifecycle.
+  - Cloud-agnostic (not tied to a specific vendor).
+  - Terraform's state files (source of truth) allow tracking resource changes.
+  - Terraform's providers are the programming interface for each target.
+- Basics
+  - Scode
+  - Author
+  - Initialize
+  - Plan
+  - Apply
+- Integrations with: GitHub, GitLab, Jenkins, and any popular CI/CD tools.
+
+---
+
+## Week 8
+
+Topics:
+
 - 
 
 - Required Reading:
@@ -291,5 +322,6 @@ Notes:
 - 
 
 ---
+
 
 (to be continued)
