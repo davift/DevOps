@@ -24,11 +24,11 @@ Activity 4:
 
 - Configure Real Autoscaling.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_8_Lab/Screenshot_XXX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_8_Lab/Screenshot_004.png)
 
 Activity 5:
 
 - Self-Healing.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_8_Lab/Screenshot_XXX.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_8_Lab/Screenshot_005.png)
 
