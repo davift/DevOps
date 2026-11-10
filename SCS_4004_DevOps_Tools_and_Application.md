@@ -311,6 +311,53 @@ Notes:
 
 Topics:
 
+- The Operations Management Phase
+- Security DevOps (DevSecOps)
+- Container Orchestration
+- Kubernetes Orchestration
+
+- Required Reading:
+
+  - [Kubernetes Overview, Kubernetes IO](https://kubernetes.io/docs/concepts/overview/)
+
+Notes:
+
+- Operations Management:
+  - Monitoring metrics for trends.
+  - Operational processes.
+  - DevOps ownership.
+  - On-call rotas.
+  - Documentation improvements.
+  - Operational feedback.
+- Security (DevSecOps):
+  - Secure assets and data.
+  - Automates security checks and validation.
+  - Challenges: rapid pace, cloud security, containers, collaboration between tools.
+  - DevOps to DevSecOps: empowerment of devs and engineers, code and pipeline scanning.
+- Container Orchestration:
+  - Provisioning, deployment, scaling, networking, load balancing.
+  - Docker: registry, host, client
+- Kubernetes orchestration:
+  - Service discovery and load balancing.
+  - Storage orchestration.
+  - Automated rollouts and rollbacks.
+  - Automatic bin packing.
+  - Self-healing.
+  - Secret and configuration management.
+  - Control Plane: make global decisions about scheduling, detecting, and responding to events.
+  - kube-apiserver: exposes the Kubernetes API.
+  - etcd: distributed key-value store used to hold the state of all components.
+  - kube-scheduler: selects a node for newly created Pods.
+  - kube-controller-manager: Node controller, Job controller, EndpointSlice controller, ServiceAccount controller.
+  - cloud-controller-manager: specific to cloud solution.
+  - Node Components: kubelet (agent), kube-proxy (LB), Container runtime.
+
+---
+
+## Week 9
+
+Topics:
+
 - 
 
 - Required Reading:
