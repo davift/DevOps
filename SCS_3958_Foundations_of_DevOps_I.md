@@ -17,8 +17,8 @@ farhad.khurshid@utoronto.ca
   - [A DevOps case study at one of the world’s largest banks](https://www.information-age.com/devops-case-study-banks-123482580/)
 
 - Weekly Assignment 1:
-  - In your designated group, assess an organization of your choice and describe if they are using Monolithic or Microservice Architecture.
-  - Do a critical analysis based on your findings and use the benefits and challenges of each architecture type to support your analysis to describe if the right approach is used.
+  - Assess an organization of your choice and describe whether it is using Monolithic or Microservices.
+  - Do a critical analysis based on your findings and use the benefits and challenges of each architecture type to support your analysis to describe whether the right approach is used.
   - No more than 3 pages (maximum 1,500 words, single-spaced, in 12pt font).
 
 Notes:
