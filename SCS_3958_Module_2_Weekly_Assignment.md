@@ -11,30 +11,31 @@ Student: Davi Torres
 
 # Uber Configuration Management
 
-Uber may heavily use of Configuration Management (CM), and most of the content of this paper is speculation around the job postings that I found and imagination (educated guess) to connect the dots.
+Uber likely makes heavy use of Configuration Management (CM). Much of this paper is based on job postings and blog posts I found and on educated guesses that connect the dots.
 
 ## Tools in Use
 
-- **Crane (IaC Orchestrator):** Uber's in-house infrastructure stack, built on Starlark configuration and Go code. It does not replaces traditional tools but works alongside, orchestrating them.
+- **Crane (IaC Orchestrator):** Uber's in-house infrastructure stack, built on Starlark configuration and Go code. It does not replace traditional tools but works alongside them, orchestrating them.
 - **Terraform (IaC):** provisions cloud instances and resources in GCP and AWS.
-- **Puppet and Ansible (CaC):** instances as they are deployed from base image, installing/updating componets and applying configuration for the role that instance is designed to perform.
-- **Flipr:** Uber's dynamic configuration platform for feature flags, allowlists, and gradual rollouts, etc.
-- But not lmited to these tools.
+- **Puppet and Ansible (CaC):** configure instances as they are deployed from a base image, installing and updating components and applying the configuration for the role each instance is designed to perform.
+- **Flipr:** Uber's dynamic configuration platform for feature flags, allowlists, gradual rollouts, and more.
+
+Uber is not limited to these tools.
 
 ## Benefits
 
-These tools cover each component of CM. Crane's host catalog keeps a standard record of every host (status accounting) as Terraform provision them and Pupper + Ansible configure them accordingly. Flipr requires peer reviews and permissions before changes go live (configuration control), while comparing the actual state against the desired state (verification and audit).
+These tools cover each component of CM. Crane's host catalog keeps a standard record of every host (status accounting) as Terraform provisions them and Puppet and Ansible configure them. Flipr requires peer reviews and permissions before changes go live (configuration control), and its consistency checks compare the actual state against the desired state (verification and audit).
 
-Configuration is standardized: Ansible separates configuration from vendor-specific syntax, and Crane makes cloud and on-premises hosts look identical using Terraform. Every change is version-controlled and traceable through Git and Flipr's history. Recovery is fast without involving service teams.
+Configuration is standardized: Ansible separates configuration from vendor-specific syntax, and Crane makes cloud and on-premises hosts look identical. Every change is version-controlled and traceable through Git and Flipr's history. Recovery is fast and does not require involving service teams.
 
 ## Assessment
 
-Uber's tool choices fit the selection criteria. It uses declarative, immutable approaches (containers, Crane, Up goal states) for its production fleet, and mutable tools (Puppet, Ansible) where machines and devices must be changed in place. It also combines cloud-native tools such as Terraform with on-premises tools, matching its hybrid infrastructure.
+Uber's tool choices fit the selection criteria. It uses declarative, immutable approaches (containers, Crane, and the goal states of Up, its deployment platform) for its production fleet, and mutable tools (Puppet, Ansible) where machines and devices must be changed in place. It also combines cloud-native tools such as Terraform with on-premises tools, matching its hybrid infrastructure.
 
-I found an article in Uber Blog (https://www.uber.com/ca/en/blog/continuous-deployment/) saying that its main weakness was inconsistency.
-- In 2022, Uber's opt-in legacy CD system had grown to more than 100 unique pipeline templates with no enforced testing or monitoring, and 1/3 of production deployments were manual.
-- Uber replaced it with Up CD, enabled by default with built-in safety gates.
-- By March 2024, 6/10 of services deployed fully automatically, and weekly deployments rose from 7,000 to 50,000.
-- As DevOps practices where adoptes the company, the benefits were evident in reducing errors and time to deliver.
+An article on the Uber Blog (https://www.uber.com/ca/en/blog/continuous-deployment/) shows that inconsistent deployment practices were a weakness:
+- In 2022, Uber's opt-in legacy CD system had grown to more than 100 unique pipeline templates with no enforced testing or monitoring, and about one-third of production deployments were manual.
+- Uber replaced it with Up CD, which is enabled by default and has built-in safety gates.
+- By March 2024, about two-thirds of services deployed fully automatically, and weekly deployments rose from 7,000 to 50,000.
+- As the company adopted these DevOps practices, the results suggested fewer errors and faster, more frequent delivery.
 
 
