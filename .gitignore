@@ -1,1 +1,6 @@
 **/node_modules*
+**/gcp-service-account.json
+gcp-service-account.json
+terraform*
+student*
+
