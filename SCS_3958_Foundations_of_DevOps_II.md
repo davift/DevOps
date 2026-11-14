@@ -5,7 +5,7 @@ farhad.khurshid@utoronto.ca
 
 ## Week 1
 
-- Configuration Management
+- Topics:
   - Conway's Law and Team Topologies
   - Software Application Processes, Frameworks, and Architecture
   - Issues with Monolithic Architecture and Solving with Microservices Architecture
@@ -69,17 +69,30 @@ Notes:
 
 ## Week 2
 
-- .
-  - .
+- Topics:
+  - Introduction to Configuration Management (CM)
+  - Components of Configuration Management
+  - Types of Configuration Management
+  - Selection Criteria for Configuration Management
+  - Configuration Management in DevOps
 
 - Required Reading:
-  - []()
+  - [Configuration management](https://en.wikipedia.org/wiki/Configuration_management)
+  - [What is configuration management? A comprehensive guide](https://searchitoperations.techtarget.com/definition/configuration-management-CM)
+  - [Configuration management and tools used in DevOps](https://labs.tadigital.com/index.php/2018/07/13/configuration-management-and-tools-used-in-devops/)
 
-- Weekly Assignment 1:
-  - .
+- Weekly Assignment 2:
+  - Assess an organization of your choice and describe if Configuration Management tools are used. List and provide examples to support your assessment.
+  - Identify what benefits these tools are providing. If not, then explain the current ways you are doing software delivery and recommend use of Configuration Management tools.
+  - No more than 3 pages (maximum 1,500 words single spaced, in 12pt font).
 
 Notes:
-- .
+- Configuration Management (CM)
+  - Introduction:
+  - Components:
+  - Types:
+  - Selection Criteria:
+  - CM in DevOps:
 
 
 ---
@@ -92,7 +105,7 @@ Notes:
 - Required Reading:
   - []()
 
-- Weekly Assignment 1:
+- Weekly Assignment 3:
   - .
 
 Notes:
@@ -109,7 +122,7 @@ Notes:
 - Required Reading:
   - []()
 
-- Weekly Assignment 1:
+- Weekly Assignment 4:
   - .
 
 Notes:
@@ -126,7 +139,7 @@ Notes:
 - Required Reading:
   - []()
 
-- Weekly Assignment 1:
+- Weekly Assignment 5:
   - .
 
 Notes:
@@ -143,7 +156,7 @@ Notes:
 - Required Reading:
   - []()
 
-- Weekly Assignment 1:
+- Weekly Assignment 6:
   - .
 
 Notes:
