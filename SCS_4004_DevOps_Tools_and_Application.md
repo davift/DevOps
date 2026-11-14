@@ -358,6 +358,65 @@ Notes:
 
 Topics:
 
+- The Monitoring Management Phase
+- Monitoring and Observability Tools and Benefits
+- Monitoring Tool Functionalities and Types
+- Monitoring Tools Examples
+
+- Required Reading:
+
+  - [Observability vs. monitoring: What's the difference?](https://www.dynatrace.com/news/blog/observability-vs-monitoring/)
+  - [DevOps Monitoring](https://www.atlassian.com/devops/devops-tools/devops-monitoring)
+  - [15 Top DevOps Monitoring Tools Made For Engineering Success, CouldZero](https://www.cloudzero.com/blog/devops-monitoring-tools)
+
+Notes:
+
+- Monitoring Management - Phase 8
+  - Oversee all phases from Phase 1 to Phase 7.
+  - Gathering the data (logs and metrics) from systems and services.
+    - Collect the data available.
+    - Collate and triage the data.
+    - Identify trends.
+    - Remediate and automate.
+    - Predict the what-if scenario.
+  - Monitoring
+    - The process of tools that capture data: Logs, Metrics and Traces
+    - Time to Detect (TTD)
+    - Time to Mitigate (TTM)
+    - Mean Time to Detect (MTTD)
+    - Mean Time to Isolate (MTTI)
+  - Observability
+    - The process or tools to understand the system’s internal state by analyzing captured data.
+    - Evaluate a system or service as healthy or not.
+    - Benefits: increased visibility, workflow optimization, and correct perceptions.
+  - Tools
+    - Monitoring Shift-left testing: is performed in earlier life cycle of development to achieve quality.
+    - Alert and incident management: are tightly integrated in modern Agile DevOps solution, it is important to report a issues or problems.
+    - Collaboration: where monitoring is used during development along with feature/functionality and automated tests.
+    - Development Support: high-quality alerts in the code that minimize MTTD and MTTI.
+    - Monitor Support: allows to build support monitors to ensure dependent services operate as expected.
+    - Historical Audit Logs: provides history of logs to review incidents.
+    - Detectors: build detectors for security (upgrades/patches/rolling credentials).
+    - Cultivate a "measure and monitor everything" mindset with automation determining the response to detected alerts.
+    - Types:
+      - Infrastructure monitoring
+      - Application monitoring
+      - Network monitoring
+      - Cost monitoring
+    - Examples:
+      - Prometheus
+      - OpenTelemetry
+      - Nagios
+      - Splunk
+      - Dynatrace
+      - New Relic
+
+---
+
+## Week 10
+
+Topics:
+
 - 
 
 - Required Reading:
