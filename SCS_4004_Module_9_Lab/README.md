@@ -4,49 +4,41 @@ From the document ***Lab Module 9 - Infrastructure & Application Monitoring.html
 
 Activity 1:
 
-- xxx.
+- Install Helm.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_000.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_001.png)
 
 Activity 2:
 
-- xxx.
+- Install the Prometheus + Grafana Stack.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_000.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_002.png)
 
 Activity 3:
 
-- xxx.
+- Open Grafana.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_000.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_003.png)
 
-Activity 4:
+Activity 4 and 5:
 
-- xxx.
+- Build a Dashboard for Your App.
+- Watch It React to Load.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_000.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_004.png)
 
-Activity 5:
-
-- xxx.
-
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_000.png)
 
 Activity 6:
 
-- xxx.
+- Nagios via Docker.
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_000.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_005.png)
+
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_006.png)
 
 Activity 7:
 
-- xxx.
+- Kubernetes Dashboard (built in, no sign-up).
 
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_000.png)
-
-Activity 8:
-
-- xxx.
-
-![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_000.png)
+![OPT](https://github.com/davift/DevOps/blob/main/SCS_4004_Module_9_Lab/Screenshot_007.png)
 
