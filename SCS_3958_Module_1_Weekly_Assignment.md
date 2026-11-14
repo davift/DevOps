@@ -15,23 +15,23 @@ Uber is a clear example of an organization that evolved its architecture as it g
 
 ## From Monolith to Microservices
 
-Until about 2014, Uber had a monolithic application that handled all their operations together. This suited them while it was still small and operating in a few cities. They only had one codebase, one deployment, and simple testing. While apparently simple, it was limited and inefficient when every change required redeploying the whole system, and any bug in one area could take everything down.
+Until about 2014, Uber had a monolithic application that handled all of its operations together. This suited the company while it was still small and operating in only a few cities: it had one codebase, one deployment, and simple testing. While apparently simple, this setup was limited and inefficient, since every change required redeploying the whole system and any bug in one area could take everything down.
 
-As Uber grew and expanded globally, it had to split its codebase into independently deployable and loosely coupled microservices. This apparent "simplicity" was a weakness, with the effect of choking slowly. Let alone the higher cost, time, and operational complexity of thousands of people simultaneously changing the same codebase. Teams were formed to own smaller chunks of code (features) that are easier to maintain.
+As Uber grew and expanded globally, this apparent "simplicity" became a weakness that was slowly choking the company, not to mention the higher cost, time, and operational complexity of thousands of people changing the same codebase simultaneously. Uber therefore had to split its codebase into independently deployable, loosely coupled microservices. Teams were formed to own smaller chunks of code (features) that were easier to maintain.
 
 ## Benefits
 
-With the migration, Teams could own, test, and deploy services independently, increasing release speed. Failures were isolated, and high-demand services could scale independently. This reorganization reflected in autonomy for the teams, but its systems still mirrored that organization's structure.
+With the migration, teams could own, test, and deploy services independently, increasing release speed. Failures were isolated, and high-demand services could scale independently. The reorganization gave teams more autonomy, and, as Conway's Law predicts, the systems mirrored the new organizational structure.
 
 ## Challenges
 
-Microservices still did not resolve all problems, and possibly exacerbated some existing ones. Around the year 2020 Uber ran about 2,200 critical microservices, which caused operations overhead and a simple integration could require changes across several services. Let alone troubleshooting production issues. This new reality required distributed tracing and centralized logs, as systems where distributed and decoupled. But that did not resolve the niddle in the hay stack issue as the volume of logs grew exponentialy.
+Microservices did not solve every problem and possibly made some existing ones worse. Around 2020, Uber ran about 2,200 critical microservices, which created operational overhead, where a simple integration could require changes across several services, not to mention the difficulty of troubleshooting production issues. Because the systems were distributed and decoupled, this new reality required distributed tracing and centralized logging. However, that did not solve the "needle in a haystack" problem, as the volume of logs grew exponentially.
 
 ## DOMA: Domain-Oriented Microservice Architecture
 
-Starting around 2018–2019, Uber decided to group its services into roughly 70 domains, such as pricing and payments. Each domain is reached through a dedicated API gateway, and business pillars defined the shape of the architecture based on its specialization and requirements for isolation/boundaries for security and data management.
+Starting around 2018–2019, Uber grouped its services into roughly 70 domains, such as pricing and payments. Each domain is reached through a dedicated API gateway, and the architecture was shaped around business pillars, based on each one's specialization and its need for isolation and clear boundaries for security and data management.
 
 ## Assessment
 
-At Uber's scale, it now uses the right approach. A monolith would never allow the company to grow to the mega corporation that it is today. While starting with a monolith was also correct when an startup, microservices would have added cost without benefit, and migrating as the organization outgrew was timely. Later, the segmentation provided by DOMA made sense as its sprawl in microservices was getting out of control. The lesson is that microservices work best when boundaries follow business domains right before it is needed. Overall, Uber's architecture fits its scale and shows a maturity on adjusting systems based on business goals.
+At its current scale, Uber uses the right approach. A monolith would never have allowed the company to grow into the global corporation it is today. Starting with a monolith was also the right choice as a startup, since microservices would have added cost without benefit, and migrating as the organization outgrew it was well timed. Later, the segmentation provided by DOMA made sense as Uber's microservice sprawl was getting out of control. The lesson is that microservices work best when boundaries follow business domains and each architectural change is made just before it is needed. Overall, Uber's architecture fits its scale and shows maturity in adapting its systems to business goals.
 
