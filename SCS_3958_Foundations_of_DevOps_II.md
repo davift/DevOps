@@ -89,11 +89,26 @@ Notes:
 Notes:
 - Configuration Management (CM)
   - Introduction:
+    - Ensures configuration is standardized across environments and systems.
+    - Examples: environment variables and configuration settings.
   - Components:
+    - Planning: Personnel, Responsibilities and Resources, Training Requirements, Guidelines (procedure, tools, etc), Audits and Reviews, Baselining Processes, COnfiguration Control and Status, Naming Conventions, Vendor's Requirements.
+    - Configuration Identification: different stages, systems, architecture, and development lifecycle (Dev, Stg, Prod).
+    - Different status of CI refer as Configuration Status Accounting (CSA).
+    - Configuration Control evaluates all change-requests and change-proposals (modifications), for approval or disapproval.
+    - Configuration Verification and Audit checks the configuration documentation against all functional and physical changes before their acceptance.
   - Types:
+    - Configuration as a Code (CaC): Ansible and many others.
+    - Infrastructure as a Code (IaC): Terraform and many others.
   - Selection Criteria:
+    - While the tools overlap capabilities, they mostly are devided as Cloud-Native or Not, CaC or IaC, Mutable Immutable, Procedural/Imperative or Declarative.
   - CM in DevOps:
-
+    - Crucial for DevOps and collaborative in nature to deliver builds with minumal intervention.
+    - Establish and enforce version control and change tracking, as well as log any activity within the repository.
+      - Source Code Repository.
+      - Artifact Repository (aka Registry).
+      - Configuration Management Database (CMDB).
+    - Reduces the likelihood of unplanned system breakdowns, provides visibility and keeps track of any changes, reduces expenses from human intervention, implements quicker restoratin/recovery, and more.
 
 ---
 
