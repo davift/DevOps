@@ -114,18 +114,61 @@ Notes:
 
 ## Week 3
 
-- .
-  - .
+- Topics:
+  - Introduction to Continuous Integration (CI) and Benefits
+  - The Four Activities of CI
+  - Setting Up Automated Testing
+  - Successful CI Culture Practices
 
 - Required Reading:
-  - []()
+  - [CI/CD Explained](https://resources.github.com/ci-cd/)
 
 - Weekly Assignment 3:
-  - .
+  - Assess Uber's organization and describe which CI tools you would prefer and why?
+  - Support your answer by explaining their benefits over other CI tools.
+  - No more than 3 pages (maximum 1,500 words, single-spaced, in 12pt font).
 
 Notes:
-- .
-
+- CI
+  - Consistent Delivery aligned with Continuous Deployment (CD).
+  - CI is the process of developing, testing, integrating, and validating features from the Program Backlog and promoting them through the environments.
+  - Also detects and resolves issues early in the development cycle.
+  - The Four Activities:
+    - Developing the solution.
+      - Break features into stories (small chunks of work) and refine them.
+      - Pulls stories from the backlog, codes, tests, then commits to source control.
+      - Uses BDD or TDD.
+      - Builds quality in with the use of flows, architecture/design, code inspections, etc.
+      - Considers how the application health and application telemetry will be monitored.
+      - Defines what the thread model is and works around it.
+    - Building the solution.
+      - Regularly integrate new code, which triggers the build pipeline that shall also include the necessary tests.
+      - Five Practices:
+        - Continuous Code Integration: compilation and testing shall be automatic upon every commit.
+        - Build and Test Automation: unit- and story-level tests.
+        - Trunk-based Development: teams should merge their branches as soon as possible, and all work on top of the trunk (avoid long-living branches).
+        - Gated Commits: commits to trunk shall be reviewed and manually approved (branch protection using PR).
+        - Application Security: code analysis tools shall inspect code for smells (known patterns of bad practices) and third-party dependencies/packages.
+    - Testing end-to-end.
+      - A full system integration should ideally run after each commit.
+      - Six Practices:
+        - Test and Production Congruity: test environments should imitate production as closely as possible.
+        - Test Automation: run all possible tests automatically (functional, integration, regression, etc).
+        - Test Data Management: tests must be source-controlled.
+        - Service Virtualization: templated ephemeral test environments.
+        - Testing Nonfunctional Requirements (NFRs): extensively examine security, reliability, performance, maintainability, scalability, and usability.
+        - Continuous Integration with Suppliers: expand and enforce the same methodology to third-party contributors.
+    - Validating on staging/pre-prod.
+      - Maintain a Staging Environment: shall be representative (identical) for proper validation.
+      - Blue/Green Deployment: maintain one environment active while the other is idle for zero-downtime quick rollback of changes.
+      - System Demo: a meeting where stakeholders assess a solution before it is promoted to Prod.
+  - Automated Testing
+    - Unit Test, Integration Test, Acceptance Test, and UI Test.
+    - Integrate Often: makes it easy to identify which change failed tests.
+    - Integration Results Visible: dashboard shall show status and error messages.
+    - Establish Common Cadence: multiple teams that collaborate shall be in sync.
+    - Develop and Maintain Proper Infrastructure: availability is crucial to all teams that depend on it.
+    - Supportive Software Eng Practices: promote modular applications that consider CI practices from their design.
 
 ---
 
