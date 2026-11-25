@@ -417,6 +417,75 @@ Notes:
 
 Topics:
 
+- DevOps Cloud Providers and Solutions (Part 1)
+- AWS DevOps Solution (Part 1)
+- Azure DevOps Solution (Part 1)
+
+- Required Reading:
+
+  - [Microsoft Azure DevOps Services](https://azure.microsoft.com/en-us/services/devops)
+  - [Amazon AWS DevOps Services](https://aws.amazon.com/devops/what-is-devops)
+
+Notes:
+
+- AWS
+  - Fully managed DevOps solutions.
+  - Programmable with APIs and SDKs.
+  - AWS CloudFormation templates.
+  - Native Automation tools
+  - Assume roles with IAM.
+  - Services:
+    - AWS CodePipeline
+    - AWS CodeBuild
+    - AWS CodeDepoy
+    - AWS CodeStar
+  - Microservices:
+    - AWS ECS
+    - AWS Lambda
+  - Tools:
+    - AWS CloudFormation (IaC equivalent to Terraform/Puppet)
+    - AWS OpsWorks (CaC based on Chef)
+    - AWS Config (Policy as Code)
+  - Monitoring and Logs:
+    - AWS CloudWatch
+    - AWS X-ray
+    - AWS CloudTrail
+    - AWS DevOps Guru
+  - PaaS:
+    - AWS Elastic Beanstalk (Java, .NET, PHP, Node.js, Python, Ruby, Go)
+  - Version Control:
+    - AWS ECS / ECR
+- Azure
+  - Plan: Azure Board
+  - Development: Azure Repos
+  - Integration: Azure Pipelines and Azure Build Apps
+  - Package: Azure Artifacts
+  - Test: Azure Test Plans
+  - Release: Azure Servers and Azure Deploy Apps
+  - Configure/Operate: Azure Migrate, Azure Machine Configuration and Azure Reporting
+  - Monitor: Azure Monitor
+- GCP (from Module 11)
+  - GCP Code Build
+  - GCP Code Deploy
+  - GCP Artifact Registry
+  - GCP Tekton
+  - GCP Spinnaker (K8s)
+  - GCP Binary Authorization (sign and enforce before running on GKE and Anthos)
+  - GCP Stackdriver (monitoring)
+  - Cloud Architecture:
+    - DNS > CDN > LB > Compute (backend) + Storage > Internal LB > Compute (internal services) > DB.
+  - Data Lake:
+    - Source (sensors, activities, transactions) > Stream Processing (real-time/batch) > Refined Data.
+  - CI/CD:
+    - Developer > Git/Bit > Build > Deploy > Run.
+- Review all Phases.
+
+---
+
+## Week 11
+
+Topics:
+
 - 
 
 - Required Reading:
@@ -427,7 +496,21 @@ Notes:
 
 - 
 
+
 ---
 
+## Week 12
+
+Topics:
+
+- 
+
+- Required Reading:
+
+  - 
+
+Notes:
+
+- 
 
 (to be continued)
