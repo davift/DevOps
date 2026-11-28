@@ -153,7 +153,7 @@ Notes:
       - A full system integration should ideally run after each commit.
       - Six Practices:
          - Test and Production Congruity: test environments should imitate production as closely as possible.
-        - Test Automation: run all possible tests automatically (functional, integration, regression, etc).
+        - Test Automation: run all possible tests automatically (functional, integration, regression, etc.).
         - Test Data Management: tests must be source-controlled.
         - Service Virtualization: templated ephemeral test environments.
         - Testing Nonfunctional Requirements (NFRs): extensively examine security, reliability, performance, maintainability, scalability, and usability.
@@ -165,7 +165,7 @@ Notes:
   - Automated Testing
     - Unit Test, Integration Test, Acceptance Test, and UI Test.
     - Integrate Often: makes it easy to identify which change failed tests.
-    - Integration Results Visible: dashboard shall show status and error messages.
+    - Integration Results Visible: the dashboard shall show status and error messages.
     - Establish Common Cadence: multiple teams that collaborate shall be in sync.
     - Develop and Maintain Proper Infrastructure: availability is crucial to all teams that depend on it.
     - Supportive Software Eng Practices: promote modular applications that consider CI practices from their design.
@@ -203,7 +203,7 @@ Notes:
     - Low-risk releases - With blue-green zero-downtime deployments (undetectable to users), they can be performed at any time, on demand.
     - Faster time to market - If developers incorporate integration and regression tests into their work, these phases can be removed.
     - Higher quality - When automated tools can discover regressions, teams are freed to focus on their stories.
-    - Lower costs - Time spent on automation is returned multiple times, and it eliminates release costs. 
+    - Lower costs - Time spent on automation is reused multiple times, and it eliminates release costs. 
     - Better products - Smaller batches are easier to test, validate, and troubleshoot.
     - Happier teams - Peer review of smaller chunks reduces teams' burnout and increases focus.
   - Activities:
@@ -232,7 +232,7 @@ Notes:
     - Proactive detection - Introduce faults to identify potential problems before they occur.
     - Cross-team collaboration - A mindset of cooperation across all parties to identify and solve problems as they arise.
     - Session replay - Ability to replay end-user sessions to research incidents and identify problems.
-    - Rollback and fix forward - Ability to both roll back quickly or to fix a problem quickly through the pipeline without the need to undo changes.
+    - Rollback and fix forward - Ability to both roll back quickly and fix a problem quickly through the pipeline without the need to undo changes.
     - Immutable infrastructure - The concept that teams never change the elements of the production environment in an uncontrolled manner (outside the pipeline).
     - Version control - Environments should be maintained under version control.
   - Continuous Monitoring:
@@ -247,7 +247,6 @@ Notes:
     - Single method of deployment - When a pipeline is in place, it must be the only method of deployment.
     - Containerization - Guarantees code behaves the same across any machine.
   - Examples of Tools: Jenkins, CircleCI, TeamCity, Bamboo, GitLab.
-
 
 ---
 
