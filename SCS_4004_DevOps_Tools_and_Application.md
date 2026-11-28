@@ -464,7 +464,25 @@ Notes:
   - Release: Azure Servers and Azure Deploy Apps
   - Configure/Operate: Azure Migrate, Azure Machine Configuration and Azure Reporting
   - Monitor: Azure Monitor
-- GCP (from Module 11)
+
+---
+
+## Week 11
+
+It was actually mostly covered in Week 10, but I separated my notes.
+
+Topics:
+
+- GCP DevOps Solution
+- GCP Cloud Architecture
+
+- Required Reading:
+
+  - [Google GCP DevOps Services](https://cloud.google.com/devops)
+
+Notes:
+
+- GCP (discussed in week 10's class)
   - GCP Code Build
   - GCP Code Deploy
   - GCP Artifact Registry
@@ -479,23 +497,6 @@ Notes:
   - CI/CD:
     - Developer > Git/Bit > Build > Deploy > Run.
 - Review all Phases.
-
----
-
-## Week 11
-
-Topics:
-
-- 
-
-- Required Reading:
-
-  - 
-
-Notes:
-
-- 
-
 
 ---
 
