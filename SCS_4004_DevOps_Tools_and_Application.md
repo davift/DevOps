@@ -374,13 +374,13 @@ Notes:
 - Monitoring Management - Phase 8
   - Oversee all phases from Phase 1 to Phase 7.
   - Gathering the data (logs and metrics) from systems and services.
-    - Collect the data available.
+    - Collect the available data.
     - Collate and triage the data.
     - Identify trends.
     - Remediate and automate.
     - Predict the what-if scenario.
   - Monitoring
-    - The process of tools that capture data: Logs, Metrics and Traces
+    - The process of tools that capture data: Logs, Metrics, and Traces
     - Time to Detect (TTD)
     - Time to Mitigate (TTM)
     - Mean Time to Detect (MTTD)
@@ -504,14 +504,36 @@ Notes:
 
 Topics:
 
-- 
+- Various Compliances
+- DevSecOps
+- AIOps
+- DataOps
+- DevOps Job Market
 
 - Required Reading:
 
-  - 
+  - [DevSecOps Overview](https://snyk.io/series/devsecops/)
+  - [What is AIOps?](https://www.ibm.com/cloud/learn/aiops)
+  - [DataOps](https://en.wikipedia.org/wiki/DataOps)
+  - [10 DevOps Job Trends in 2022](https://www.darey.io/10-devops-job-trends-in-2022/#:~:text=The%20answer%20is%20a%20resounding,reasons%20for%20this%20continued%20demand.)
 
 Notes:
 
-- 
+- Key Terms:
+  - Various Compliances - HIPAA (about health information), PCI (about credit cards), GDPR (covers the data of all EU citizens), CCPA (applies to every citizen of California).
+  - DevSecOps - Uses concepts of AppSec earlier in the SDLC.
+    - Security is a feature from design and tightly integrated into the pipelines. 
+  - AIOps - Automation of AI (actually ML) operations.
+    - Operationalization of tools capable of filtering "signals" out of the "noise" to identify significant events and patterns.
+    - Goals:
+      - Observability
+      - Predictive Analytics
+      - Proactive Response
+      - Root Cause Analysis
+      - Anomaly Detection
+      - Performance Monitoring
+  - DataOps - Process-oriented perspective on data analytics with automation.
+    - Applies to the entire data lifecycle.
+    - Recognizes the interconnected nature of data analytics.
+    - Utilizes statistical process control (SPC) to monitor and control the data analytics pipeline.
 
-(to be continued)
