@@ -152,7 +152,7 @@ Notes:
     - Testing end-to-end.
       - A full system integration should ideally run after each commit.
       - Six Practices:
-        - Test and Production Congruity: test environments should imitate production as closely as possible.
+         - Test and Production Congruity: test environments should imitate production as closely as possible.
         - Test Automation: run all possible tests automatically (functional, integration, regression, etc).
         - Test Data Management: tests must be source-controlled.
         - Service Virtualization: templated ephemeral test environments.
@@ -174,24 +174,86 @@ Notes:
 
 ## Week 4
 
-- .
-  - .
+- Topics:
+  - Introduction to Continuous Deployment (CD) and Benefits
+  - The Four Activities of CD
+  - Continuous Monitoring and Benefits
+  - Successful CD Best Practices
+  - Tools to Manage CI/CD Pipelines
 
 - Required Reading:
-  - []()
+  - [What is continuous delivery?](https://www.redhat.com/en/topics/devops/what-is-continuous-delivery)
+  - [DevOps Monitoring](https://www.atlassian.com/devops/devops-tools/devops-monitoring)
 
 - Weekly Assignment 4:
-  - .
+  - Assess Uber's organization and describe which CD and CM tools you would prefer and why?
+  - Provide your explanation outlining the benefits of each tool you have selected.
+  - No more than 3 pages (maximum 1,500 words, single-spaced, in 12pt font).
 
 Notes:
-- .
+- Continuous Integration (CI) - Ensures individual code changes are properly included in the codebase.
+- Consistent Delivery - Validates quality and generates deployable deliverables.
+- Continuous Deployment (CD) - Provides the product to clients and allows limited deployments and rollbacks.
+- CD
+  - Is the process of promoting validated features from the staging environment to production.
+  - Features must be waiting in production before the business needs them.
+  - Deployed modifications shall enter the production environment without affecting existing behavior.
+  - Teams shall make small, incremental modifications regularly, but only distribute to users when appropriate.
+  - Benefits:
+    - Low-risk releases - With blue-green zero-downtime deployments (undetectable to users), they can be performed at any time, on demand.
+    - Faster time to market - If developers incorporate integration and regression tests into their work, these phases can be removed.
+    - Higher quality - When automated tools can discover regressions, teams are freed to focus on their stories.
+    - Lower costs - Time spent on automation is returned multiple times, and it eliminates release costs. 
+    - Better products - Smaller batches are easier to test, validate, and troubleshoot.
+    - Happier teams - Peer review of smaller chunks reduces teams' burnout and increases focus.
+  - Activities:
+    - Deploy to production - The procedure for making a solution live to users.
+    - Verify the solution - The procedure that ensures changes work as planned in production before they are made available to users.
+    - Monitor for problems - The procedure for monitoring and reporting issues.
+    - Respond and recover - The procedure for quickly resolving any issues that arise during deployment.
+  - Practices:
+    - Dark launches - Ability to deploy to production without releasing to end users.
+    - Feature toggles - Technique to facilitate dark launches by implementing toggles in the code.
+    - Deployment automation - Ability to deploy automatically to production.
+    - Selective deployment - Ability to deploy to specific production environments based on criteria (e.g., geography, early adopters).
+    - Self-service deployment - A single/manual command to trigger the deployment.
+    - Version control - Enables fast deployment and fast recovery
+    - Blue/green deployment - Permits on-demand switching on the LB between the latest release and the previous release.
+  - Verification:
+    - Production testing - Ability to test in production when it is still "dark" (hidden from users).
+    - Test automation - Ability to test repeatedly via automation.
+    - Test data management - Version control testing data to create consistency in automated testing.
+    - Testing nonfunctional requirements (NFRs) - Test system attributes (security, reliability, performance, maintainability, scalability, and usability) before release.
+  - Monitoring:
+    - Full-stack telemetry - Capacity to identify problems across the entire stack.
+    - Visual displays - Tools that show the results of automated measurements.
+    - Federated monitoring - A holistic view of problems and performance created by unified monitoring across all stacks.
+  - Respond and Recover:
+    - Proactive detection - Introduce faults to identify potential problems before they occur.
+    - Cross-team collaboration - A mindset of cooperation across all parties to identify and solve problems as they arise.
+    - Session replay - Ability to replay end-user sessions to research incidents and identify problems.
+    - Rollback and fix forward - Ability to both roll back quickly or to fix a problem quickly through the pipeline without the need to undo changes.
+    - Immutable infrastructure - The concept that teams never change the elements of the production environment in an uncontrolled manner (outside the pipeline).
+    - Version control - Environments should be maintained under version control.
+  - Continuous Monitoring:
+    - Increase the visibility and transparency of network activity and performance.
+    - System Definition - Defines the scope.
+    - Risk Assessment - Categorize risk (high to low) and potential impact of a data breach.
+    - Choosing Security Control Software - Determine what types of security controls will be applied.
+    - Software Tool Configuration - Incorporate features such as log collection and aggregation.
+    - Ongoing Assessment - Analyze log data and detect trends, patterns, or outliers that indicate abnormal activity.
+  - Best Practices:
+    - Test-driven development - Defines behavior specifications for new features before development begins. 
+    - Single method of deployment - When a pipeline is in place, it must be the only method of deployment.
+    - Containerization - Guarantees code behaves the same across any machine.
+  - Examples of Tools: Jenkins, CircleCI, TeamCity, Bamboo, GitLab.
 
 
 ---
 
 ## Week 5
 
-- .
+- Topics:
   - .
 
 - Required Reading:
@@ -209,7 +271,7 @@ Notes:
 ## Week 6
 
 - .
-  - .
+  - Topics:
 
 - Required Reading:
   - []()
